@@ -1,0 +1,8275 @@
+{
+	"status": "ok",
+	"data": [{
+		"title": "腾讯云负载均衡支持以下哪些协议的请求转发?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 207,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 825,
+			"title": " HTTP",
+			"param": "[]"
+		}, {
+			"oid": 826,
+			"title": " HTTPS",
+			"param": "[]"
+		}, {
+			"oid": 827,
+			"title": " TCP",
+			"param": "[]"
+		}, {
+			"oid": 828,
+			"title": " UDP",
+			"param": "[]"
+		}],
+		"rightoids": [825, 826, 827, 828]
+	}, {
+		"title": "当我们在做架构设计时,应充分考虑主机层面的安全性,如果没有做好服务器安全,可能将会遭受病毒木马攻击、暴力破解密码、漏洞攻击等风验,以下属于腾讯云主机安全功能的,有哪些项？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 208,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 829,
+			"title": " 入侵检测、密码破解",
+			"param": "[]"
+		}, {
+			"oid": 830,
+			"title": " 漏洞管理",
+			"param": "[]"
+		}, {
+			"oid": 831,
+			"title": " Webshell检测",
+			"param": "[]"
+		}, {
+			"oid": 832,
+			"title": " 恶意文件检测",
+			"param": "[]"
+		}],
+		"rightoids": [829, 830, 832, 831]
+	}, {
+		"title": "您正在腾讯云上部署一个弹性伸缩服务，在创建好伸缩组后,将包年包月的CVM添加进去,然后配置了告警伸缩策路,您希望将来在高峰期过去之后,优先从组中移出按量计费的CVM,此时您可以采用以下哪些措施来达到目标?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 209,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 833,
+			"title": " 在伸缩组中的移除策略修改为:删除最旧机器",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 834,
+			"title": " 在伸缩组中的移除策略修改为:删除最新机器",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 835,
+			"title": " 在所有按量计费的CVM届性中，都设置移出保护",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 836,
+			"title": " 在所有包年包月的CVM属性中,都设置移出保护",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [834, 836]
+	}, {
+		"title": "腾讯微服务平台TSF的应用管理分为:生命周期管理、弹性伸缩、配置中心。下列属于应用生命周期管理的有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 210,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 837,
+			"title": " 批量部署",
+			"param": "[]"
+		}, {
+			"oid": 838,
+			"title": " 版本管理",
+			"param": "[]"
+		}, {
+			"oid": 839,
+			"title": " 灰度发布",
+			"param": "[]"
+		}, {
+			"oid": 840,
+			"title": " 优雅启停",
+			"param": "[]"
+		}],
+		"rightoids": [837, 838, 839, 840]
+	}, {
+		"title": "如果您希望业务能够在云上持续无故障的运行，并且用户反映良好，就需要进行充分且合理的架构设计与架构优化，以下关于架构优化的目的描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 211,
+		"feedback": "架构优化的目的是为了业务本身，而非展现架构师的价值",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 841,
+			"title": " 改善现有问题",
+			"param": "[]"
+		}, {
+			"oid": 842,
+			"title": " 提升业务表现",
+			"param": "[]"
+		}, {
+			"oid": 843,
+			"title": " 预防问题出现",
+			"param": "[]"
+		}, {
+			"oid": 844,
+			"title": " 体现架构师的价值",
+			"param": "[]"
+		}],
+		"rightoids": [844]
+	}, {
+		"title": "在腾讯云平台中，下列选项中属于架构优化方法的有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 212,
+		"feedback": "架构设计从来都不是一蹴而就的",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 845,
+			"title": " 现状调研∶了解系统相关的详细情况，为需求分析、问题定位和优化方案提供信息",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 846,
+			"title": " 问题定位︰将整个架构分解为客户端、网络、前端、应用、数据、安全等几个部分，从每个部分去分析是否存在问题",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 847,
+			"title": " 设计目标架构:吸取教训，一次性设计完美架构",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 848,
+			"title": " 遵循架构设计原则，查漏补缺",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [845, 846, 848]
+	}, {
+		"title": "腾讯云安全提供了完善的安全服务以构建企业安全体系，下列哪项不属于腾讯云业务安全产品天御的功能?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 213,
+		"feedback": "天御业务安全防护包含产品注册保护、登录保护和活动防刷",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 849,
+			"title": " 注册保护:有效的打击虚假注册，注册机软件、第三方平台等手段，减少虚假帐号，保护企业的帐号安全",
+			"param": "[]"
+		}, {
+			"oid": 850,
+			"title": " 登录保护∶对用户登录行为、帐号、IP等综合判定登录风险程度，实时打击恶意行为，提高虚假账号登录门槛和有效识别撞库行为，从而进一步的保障企业的账号安全",
+			"param": "[]"
+		}, {
+			"oid": 851,
+			"title": " 活动防刷:基于腾讯海量大数据分析用户的行为和账号的风险等级，有效地识别出“羊毛党”，保障企业利益",
+			"param": "[]"
+		}, {
+			"oid": 852,
+			"title": " 人脸识别:基于深度学习的面部分析技术，包括人脸检测与分析、五官定位、人脸比对与验证、人脸检索、活体检测等，可提供多样化的人脸识别和验证方案",
+			"param": "[]"
+		}],
+		"rightoids": [852]
+	}, {
+		"title": "以下关于腾讯云上弹性伸缩产品中手动扩容和自动扩容的描述中，正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 214,
+		"feedback": "弹性伸缩(Auto Scaling,AS)除支持根据业务负载自动扩缩容外,还支持您手动介入,达到快速手动扩缩容的效果https://cloud.tencent.com/document/product/377/8564",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 853,
+			"title": " 手动扩容主要适用于业务波峰波谷可预测的场景，例如日常手机抢购活动，压力是可预测的，可手工扩容",
+			"param": "[]"
+		}, {
+			"oid": 854,
+			"title": " 手动扩容主要适用于业务波峰波谷不可预测的场景，例如业务的随机高峰和低谷，时间不可预测，可手工扩容",
+			"param": "[]"
+		}, {
+			"oid": 855,
+			"title": " 自动扩容主要适用于业务波峰波谷不可预测的场景，例如业务的随机高峰和低谷，时间不可预测，可自动扩容",
+			"param": "[]"
+		}, {
+			"oid": 856,
+			"title": " 在日常的业务中，可同时配置手工扩容和自动扩容",
+			"param": "[]"
+		}],
+		"rightoids": [853, 855, 856]
+	}, {
+		"title": "以下关于CDN加速概念的描述中，正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 215,
+		"feedback": "选线C是不对的,除了静态数据加速,还可以使用ECDN对动态数据加速",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 857,
+			"title": " CDN是一种通过将服务内容分发至全网加速节点，利用全球调度系统使用户能够在就近节点获取所需内容的技术",
+			"param": "[]"
+		}, {
+			"oid": 858,
+			"title": " CDN可以大大降低用户访问内容时，访问延迟过大的问题",
+			"param": "[]"
+		}, {
+			"oid": 859,
+			"title": " CDN主要用于实现静态数据加速",
+			"param": "[]"
+		}, {
+			"oid": 860,
+			"title": " 对用户来说，服务的可用性并不会由于CDN服务的启用而有所改善，只是速度变快了",
+			"param": "[]"
+		}],
+		"rightoids": [857, 858]
+	}, {
+		"title": "在API统一网关管理架构的设计中，下列说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 216,
+		"feedback": "API网关不仅支持新建API,也支持已有的私有云中API",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 861,
+			"title": " 在CVM上已有的API直接使用API网关管理",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 862,
+			"title": "私有云已有的API无法管理，可以管理新建API",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 863,
+			"title": " 统一供应位置和格式",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 864,
+			"title": " 可以统一文档和SDK",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [862]
+	}, {
+		"title": "下列选项中不属于性能优化措施的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 217,
+		"feedback": "增大对象存储容量对性能没有任何提升",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 865,
+			"title": " 选择更大的带宽",
+			"param": "[]"
+		}, {
+			"oid": 866,
+			"title": " 使用CDN加速",
+			"param": "[]"
+		}, {
+			"oid": 867,
+			"title": " 使用缓存缩短用户请求响应时间",
+			"param": "[]"
+		}, {
+			"oid": 868,
+			"title": " 提升对象存储的容量",
+			"param": "[]"
+		}],
+		"rightoids": [868]
+	}, {
+		"title": "关于高可用性的概念，下列说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 218,
+		"feedback": "高可用的目的是以合理的成本,通过合理的设计来保证的,而不是以不计成本的冗余来保证的。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 869,
+			"title": " 把平均无故障时间和平均维修时间作为衡量高可用性的标准",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 870,
+			"title": " 计算机系统的可用性定义为:MTTF(MTTF+MTTR)*100%。由此可见，计算机系统的可用性定义为系统保持正常运行时间的百分比，(MTTF为平均无故障时间MTTR为平均维修时间)",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 871,
+			"title": " 系统的可用性越高，平均无故障时间越长",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 872,
+			"title": " 通过部署大量的服务器集群，高可用性可以达到100%",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [872]
+	}, {
+		"title": "小明部署业务网站时的架构如下:前端通过3台服务器实现网站集群，后端通过CDR产品来提供数据库服务，一直运行非常正常，但是随着时间的推移，请求量越来越多，导致用户请求响应越来越慢，以下各项解决方案中，不能直接改善该问题的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 219,
+		"feedback": "选项ACD都能直接改善响应越来越慢的问题",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 873,
+			"title": " 在架构中加入CDN服务",
+			"param": "[]"
+		}, {
+			"oid": 874,
+			"title": " 在架构中，加入API网关服务",
+			"param": "[]"
+		}, {
+			"oid": 875,
+			"title": " 在架构中加入CRS产品",
+			"param": "[]"
+		}, {
+			"oid": 876,
+			"title": " 在架构中，加入弹性伸缩服务",
+			"param": "[]"
+		}],
+		"rightoids": [874]
+	}, {
+		"title": "您正在腾讯云上部署弹性伸缩，在创建伸缩组的最后一步，发现无法选择前期创建的负载均衡，以下哪项原因可能会导致此现象发生?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 220,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 877,
+			"title": " 负载均衡和伸缩组所使用的私有网络不同",
+			"param": "[]"
+		}, {
+			"oid": 878,
+			"title": " 负载均衡的型号问题，传统型负载均衡不支持搭配弹性伸缩",
+			"param": "[]"
+		}, {
+			"oid": 879,
+			"title": " 负载均衡的型号问题，应用型负载均衡不支持搭配弹性伸缩",
+			"param": "[]"
+		}, {
+			"oid": 880,
+			"title": " 弹性伸缩的伸缩组至少要选择两个子网才可以在下一步中，选取负载均衡",
+			"param": "[]"
+		}],
+		"rightoids": [877]
+	}, {
+		"title": "您在北京部署了一个游戏服务器，但是您希望全国的用户都访问非常流畅，此时您应该使用以下哪项产品来起到游戏如加速器的作用，使得游戏请求就近进入腾讯云，经过腾讯云的内网专线到达游戏服务器，极大缩短经过的公网路径，减少延时、抖动和丢包?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 221,
+		"feedback": "题干中提示走腾讯云的内网专线到达游戏服务器,这个就是anycast特点了",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 881,
+			"title": " CLB",
+			"param": "[]"
+		}, {
+			"oid": 882,
+			"title": " COS",
+			"param": "[]"
+		}, {
+			"oid": 883,
+			"title": " TKE",
+			"param": "[]"
+		}, {
+			"oid": 884,
+			"title": " Anycast",
+			"param": "[]"
+		}],
+		"rightoids": [884]
+	}, {
+		"title": "以下哪些腾讯云的产品已经具备高可用特性?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 222,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 885,
+			"title": " 对象存储",
+			"param": "[]"
+		}, {
+			"oid": 886,
+			"title": " 关系型数据库",
+			"param": "[]"
+		}, {
+			"oid": 887,
+			"title": " 负载均衡",
+			"param": "[]"
+		}, {
+			"oid": 888,
+			"title": " 内容加速网络",
+			"param": "[]"
+		}],
+		"rightoids": [885, 886, 887, 888]
+	}, {
+		"title": "腾讯游戏官网使用了TCC(Try-Confim-Cancel)模式分布式事务管理框架来提供道具购买的访问，在购买过程中交易系统会分别调用金币系统和道具系统的Try接口。下列选项中说法中错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 223,
+		"feedback": "还没有理解TCC模式，暂定选择A。分布式事务,应该是同时分别去执行,不是串行执行,这两系统,不存在先后执行问题",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 889,
+			"title": " 金币系统try成功后，再调用道具try系统",
+			"param": "[]"
+		}, {
+			"oid": 890,
+			"title": " 金币系统try失败，直接执行Cancel操作",
+			"param": "[]"
+		}, {
+			"oid": 891,
+			"title": " 金币系统try和道具系统try成功，会执行Confirm动作如果执行Confirm动作失败，会自动执行Confirm机制",
+			"param": "[]"
+		}, {
+			"oid": 892,
+			"title": " 金币系统try和道具系统try，任何一个失败都会执行Cancel操作。如果Cancel操作执行失败，会执行Cancel机制",
+			"param": "[]"
+		}],
+		"rightoids": [889]
+	}, {
+		"title": "以下关于腾讯云无服务器云函数的产品优势以及用户价值的描述中，正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 224,
+		"feedback": "云函数(Serverless Cloud Function,SCF)是腾讯云为企业和开发者们提供的无服务器执行环境,帮助您在无需购买和管理服务器的情况下运行代码。您只需使用平台支持的语言编写核心代码并设置代码运行的条件,即可在腾讯云基础设施上弹性、安全地运行代码。SCF是实时文件处理和数据处理等场景下理想的计算平台https://cloud.tencent.com/document/product/583/91\n99",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 893,
+			"title": " 用户只需编写最重要的“核心代码”，不再需要关心负载均衡、自动伸缩、网关等周边组件，极大地降低了服务架构搭建的复杂性",
+			"param": "[]"
+		}, {
+			"oid": 894,
+			"title": " 云函数不要求特定框架或依赖，开发者可以专注于核心代码的开发，加速开发进度",
+			"param": "[]"
+		}, {
+			"oid": 895,
+			"title": " 云函数可以自动在每个地域中随机地选择可用区来运行，免除单可用区运行的故障风险",
+			"param": "[]"
+		}, {
+			"oid": 896,
+			"title": " 函数在未执行时不产生任何费用，对一些并非常驻的业务进程来说开销将大大降低",
+			"param": "[]"
+		}],
+		"rightoids": [893, 894, 895, 896]
+	}, {
+		"title": "腾讯微服务平台TSF是腾讯云推出的管理套件，下列不属于服务管理功能的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 225,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 897,
+			"title": " 服务限流",
+			"param": "[]"
+		}, {
+			"oid": 898,
+			"title": " 服务降级",
+			"param": "[]"
+		}, {
+			"oid": 899,
+			"title": " 服务鉴权",
+			"param": "[]"
+		}, {
+			"oid": 900,
+			"title": " 服务复制",
+			"param": "[]"
+		}],
+		"rightoids": [900]
+	}, {
+		"title": "某用户希望后续客户端的请求可以分配到同一服务器上为了配合客户特定应用程序服务器的需求，保证客户端的会话具有“粘性”或是“持续性”，在此场景下,我们可以采用负载均衡的哪种轮询算法?此方法可以确保来自同一客户端的请求总被定向分发到同一后端服务器上去。(服务器数量变化或是该服务器不可用时除外)",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 226,
+		"feedback": "源地址散列调度算法以使某一客户端的请求通过哈希表一直映射在同一台后端服务器上，在不支持会话保持的场景中，可以使用 ip_hash 实现简单的会话保持。详见https://cloud.tencent.com/document/product/214/6153",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 901,
+			"title": " 加权轮询算法",
+			"param": "[]"
+		}, {
+			"oid": 902,
+			"title": " 加权最小连接数算法",
+			"param": "[]"
+		}, {
+			"oid": 903,
+			"title": " 源地址MAC哈希算法",
+			"param": "[]"
+		}, {
+			"oid": 904,
+			"title": " 源地址散列调度算法ip_hash",
+			"param": "[]"
+		}],
+		"rightoids": [904]
+	}, {
+		"title": "以下关于腾讯微服务平台的设计原则和思路的描述中，正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 227,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 905,
+			"title": " 前后端分离:将一个应用或系统的前端架构和后端架构进行分离，进行适当的解耦",
+			"param": "[]"
+		}, {
+			"oid": 906,
+			"title": " 无状态服务︰无状态服务对单次请求的处理，不依赖其他请求",
+			"param": "[]"
+		}, {
+			"oid": 907,
+			"title": " 合理拆分:低耦合，高内聚，一个服务完成一个独立功能",
+			"param": "[]"
+		}, {
+			"oid": 908,
+			"title": " 有状态服务︰请求自身保存一些数据，并且和先后的请求有关联的",
+			"param": "[]"
+		}],
+		"rightoids": [905, 906, 907]
+	}, {
+		"title": "用户在使用腾讯云的过程中，用来降低成本的方式不包括以下哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 228,
+		"feedback": "开启与预留一定的资源容量,与达成系统低成本的目的是相互矛盾的。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 909,
+			"title": " 了解业务，让资源匹配业务",
+			"param": "[]"
+		}, {
+			"oid": 910,
+			"title": " 了解业务对资源的使用频率",
+			"param": "[]"
+		}, {
+			"oid": 911,
+			"title": " 购买腾讯的单性伸缩产品来优化业务高峰时的成本",
+			"param": "[]"
+		}, {
+			"oid": 912,
+			"title": " 根据可扩展性要求，开启和预留一定的资源容量，保证业务的可用性，从而达到降低成本的目的",
+			"param": "[]"
+		}],
+		"rightoids": [912]
+	}, {
+		"title": "以下哪些场景适合选择按量计费的计费方式?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 229,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 913,
+			"title": " 正式上线的稳定的云上业务",
+			"param": "[]"
+		}, {
+			"oid": 914,
+			"title": " 在培训中需要使用云服务器做上机实验",
+			"param": "[]"
+		}, {
+			"oid": 915,
+			"title": " 需要长期使用云资源，追求低成本",
+			"param": "[]"
+		}, {
+			"oid": 916,
+			"title": " 资源使用有临时性和突发性",
+			"param": "[]"
+		}],
+		"rightoids": [914, 916]
+	}, {
+		"title": "在高可用设计时应考虑业务的伸缩性，在高峰期时可以用低成本的方式来应对业务浪涌，以下哪项的伸缩性不属于用户应该考虑的范围?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 230,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 917,
+			"title": " 网络",
+			"param": "[]"
+		}, {
+			"oid": 918,
+			"title": " 计算",
+			"param": "[]"
+		}, {
+			"oid": 919,
+			"title": " 存储",
+			"param": "[]"
+		}, {
+			"oid": 920,
+			"title": " 云平台",
+			"param": "[]"
+		}],
+		"rightoids": [920]
+	}, {
+		"title": "某视频服务商在腾讯云上自己构建了一套直播互动服务平台，同时购买了Anycast公网加速服务，下列关于该方案说法正确的有哪些?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 231,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 921,
+			"title": " 自建直播平台需要考虑搭建多地域的专线网络",
+			"param": "[]"
+		}, {
+			"oid": 922,
+			"title": " 自建直播平台需要考虑搭建多地域接入点",
+			"param": "[]"
+		}, {
+			"oid": 923,
+			"title": " 直播平台使用Anycast服务后，可以直接利用腾讯云内网和POP点为直播用户服务",
+			"param": "[]"
+		}, {
+			"oid": 924,
+			"title": " 直播平台使用Anycast服务后仍需要另外搭建专线网络",
+			"param": "[]"
+		}],
+		"rightoids": [923]
+	}, {
+		"title": "腾讯云提供多种服务器供客户在不同的应用场景做相应选择，下列场景对应的选型中哪项不是最佳方案?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 232,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 925,
+			"title": " 小型Web/APP应用使用腾讯云CVM",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 926,
+			"title": " 深度学习、科学计算使用GPU云服务器",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 927,
+			"title": " 大量的重复性、需要并行计算使用FPGA云服务器",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 928,
+			"title": " 金融业务使用腾讯云CVM，满足敏感业务数据保护",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [928]
+	}, {
+		"title": "下列选项中不是腾讯云VPC接入Internet方式的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 233,
+		"feedback": "腾讯云VPN不提供访问 Internet 功能。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 929,
+			"title": " 弹性公网IP",
+			"param": "[]"
+		}, {
+			"oid": 930,
+			"title": " 公网网关",
+			"param": "[]"
+		}, {
+			"oid": 931,
+			"title": " NAT网关",
+			"param": "[]"
+		}, {
+			"oid": 932,
+			"title": " VPN专线接入",
+			"param": "[]"
+		}],
+		"rightoids": [932]
+	}, {
+		"title": "某腾讯云用户，希望享受基于机器学习提供黑客入侵捡测和漏洞风险预警等安全防护的服务，该服务主要包括密码破解拦截、异地登录提醒、木马文件查杀、高危漏洞检测等安全功能，用于解决当前服务器面临的主要网络安全风险。那么该用户应该选择腾讯云的哪个安全产品?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 234,
+		"feedback": "主机安全是一款针对于云上主机安全防护的产品，主要包括密码破解拦截、异常登录提醒、木马文件检测、高危漏洞检测等安全功能。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 933,
+			"title": " 主机安全",
+			"param": "[]"
+		}, {
+			"oid": 934,
+			"title": " Web应用防火墙",
+			"param": "[]"
+		}, {
+			"oid": 935,
+			"title": " 天御保险反欺诈",
+			"param": "[]"
+		}, {
+			"oid": 936,
+			"title": " DDoS防护",
+			"param": "[]"
+		}],
+		"rightoids": [933]
+	}, {
+		"title": "安全设计的目的就是要避免因系统遭受攻击而造成数据及财产损失。从云架构的设计角度来考量，以下哪项不属于高安全的目的?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 235,
+		"feedback": "选项C是描述的是系统的扩展性,而不是安全性",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 937,
+			"title": " 主机安全、网络安全:物理层面由云供应商提供保护，云用户需要考虑其使用的虚拟主机和虚拟网络的安全",
+			"param": "[]"
+		}, {
+			"oid": 938,
+			"title": " 数据安全:存储不丢失(冗余、备份恢复)，数据不泄露",
+			"param": "[]"
+		}, {
+			"oid": 939,
+			"title": " 扩展安全:当系统增加新功能时，不需要对现有系统的结构和代码进行修改",
+			"param": "[]"
+		}, {
+			"oid": 940,
+			"title": " 业务安全:业务连续性和安全性（避免遭受羊毛党、金融欺诈和应用漏洞等损失）",
+			"param": "[]"
+		}],
+		"rightoids": [939]
+	}, {
+		"title": "以下哪项描述不属于负载均衡的应用场景?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 236,
+		"feedback": "负载均衡的应用场景：流量分发、消除单点故障、横向扩展、全局负载均衡。程序解耦不属于负载均衡的应用场景。详见https://cloud.tencent.com/document/product/214/529",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 941,
+			"title": " 流量分发",
+			"param": "[]"
+		}, {
+			"oid": 942,
+			"title": " 横向扩展",
+			"param": "[]"
+		}, {
+			"oid": 943,
+			"title": " 业务分离",
+			"param": "[]"
+		}, {
+			"oid": 944,
+			"title": " 程序解耦",
+			"param": "[]"
+		}],
+		"rightoids": [944]
+	}, {
+		"title": "关于CDN加速中间源的概念，下列描述错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 237,
+		"feedback": "中间源不负责直接向用户返回其请求内容",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 945,
+			"title": " 可降低业务服务器(即源站）的访问压力",
+			"param": "[]"
+		}, {
+			"oid": 946,
+			"title": " 可缓存多个边缘节点的回源请求",
+			"param": "[]"
+		}, {
+			"oid": 947,
+			"title": " 位于业务服务器（源站）和边缘节点的一个中间层的回源服务器",
+			"param": "[]"
+		}, {
+			"oid": 948,
+			"title": " 用于缓存客户源站内容以便快速响应不同地域用户请求的网络节点，负责最终直接向用户返回其请求内容",
+			"param": "[]"
+		}],
+		"rightoids": [948]
+	}, {
+		"title": "云架构设计的目的是合理的选择和组合云产品，以满足业务需求的同时，提高系统的以下哪些方面的能力?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 238,
+		"feedback": "云架构设计的目的要确保信息系统达到可靠性、安全性、可维护性、可用性、可扩展性要求，开发中应用通用软件架构设计概念是比较理想的选择。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 949,
+			"title": " 可用性",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 950,
+			"title": " 可扩展性",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 951,
+			"title": " 安全性",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 952,
+			"title": " 低成本",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [949, 950, 951]
+	}, {
+		"title": "耦合性是一种软件度量，下列关于耦合性说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 239,
+		"feedback": "软件基本设计原则：高内聚低耦合。详见https://cloud.tencent.com/developer/article/1400582",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 953,
+			"title": " 耦合性是一种软件度量，指程序中，模块与模块之间信息或者参数的依赖度",
+			"param": "[]"
+		}, {
+			"oid": 954,
+			"title": " 耦合度越低，系统的灵活性就越好",
+			"param": "[]"
+		}, {
+			"oid": 955,
+			"title": " 当业务产生变化时，耦合性越高的系统，重新调整系统的难度越高，进行变革的成本就越大",
+			"param": "[]"
+		}, {
+			"oid": 956,
+			"title": " 低内聚高耦合一直以来都是软件的基本设计原则",
+			"param": "[]"
+		}],
+		"rightoids": [956]
+	}, {
+		"title": "当前负载均衡后端挂载了3台服务器，分别命名为A、B、C，3台服务器的权重统一设置为10，假设服务器A上有30个连接数，服务器B上有60个连接数，服务器C上有80个连接数，此时您的CLB监听器将调度算法更改成加权最小连接数算法，以下哪项描述是正确的?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 240,
+		"feedback": "3台服务器的权重统一设置为10，那么A服务器的连接数最少，下一个请求会分发到A服务器。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 957,
+			"title": " 服务器A必然会获得下一个请求",
+			"param": "[]"
+		}, {
+			"oid": 958,
+			"title": " 服务器B必然会获得下一个请求",
+			"param": "[]"
+		}, {
+			"oid": 959,
+			"title": " 服务器C必然会获得下一个请求",
+			"param": "[]"
+		}, {
+			"oid": 960,
+			"title": " 任何一个服务器都有可能会先获得请求",
+			"param": "[]"
+		}],
+		"rightoids": [957]
+	}, {
+		"title": "您目前需要一款适合部署数据库集群的服务器，集群化数据库对硬盘的低时延要求很高，您可以选择使用以下哪项腾讯云服务器类型?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 241,
+		"feedback": "高I/O型服务器最符合数据库的高频读写操作",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 961,
+			"title": " 标准型",
+			"param": "[]"
+		}, {
+			"oid": 962,
+			"title": " 计算型",
+			"param": "[]"
+		}, {
+			"oid": 963,
+			"title": " 内存型",
+			"param": "[]"
+		}, {
+			"oid": 964,
+			"title": " 高I/O型",
+			"param": "[]"
+		}],
+		"rightoids": [964]
+	}, {
+		"title": "以下关于腾讯云微服务平台中应用管理所支持的应用类型描述中，正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 242,
+		"feedback": "TSF应用分为三种类型：虚拟机应用、容器应用、Serverless应用。详见https://cloud.tencent.com/document/product/649/16931",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 965,
+			"title": " 虚拟机应用",
+			"param": "[]"
+		}, {
+			"oid": 966,
+			"title": " 容器应用",
+			"param": "[]"
+		}, {
+			"oid": 967,
+			"title": " 物理机应用",
+			"param": "[]"
+		}, {
+			"oid": 968,
+			"title": " 单机应用",
+			"param": "[]"
+		}],
+		"rightoids": [965, 966]
+	}, {
+		"title": "您在本地机房部署了一个非常具备商业价值的镜像，您希望有偿提供给云上的所有租户使用，在有需求时，用户可自助下单完成购买和部署，您应该通过以下哪项描述来完成此目标?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 243,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 969,
+			"title": " 将镜像以服务的方式部署到云API网关，并对接云市场",
+			"param": "[]"
+		}, {
+			"oid": 970,
+			"title": " 将镜像上传到腾讯云上，并有偿共亨给所有租户",
+			"param": "[]"
+		}, {
+			"oid": 971,
+			"title": " 在腾讯云上暴露出镜像服务的API服务，并将API接口仅开放给付费用户",
+			"param": "[]"
+		}, {
+			"oid": 972,
+			"title": " 将镜像打包，并分发给有需求的用户，用户拿到镜像后，上传到自己的账户中使用",
+			"param": "[]"
+		}],
+		"rightoids": [969]
+	}, {
+		"title": "下列针对架构做性能优化的描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 244,
+		"feedback": "选项D在于本地硬盘和对象存储COS角色置换,应该是用对象存储COS而不是本地硬盘",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 973,
+			"title": " 使用CDN加速，腾讯云CDN超大的带宽储备，足以应对促销活动时爆发性的用户访问请求",
+			"param": "[]"
+		}, {
+			"oid": 974,
+			"title": " 使用负载均衡CLB+弹性伸缩AS，实时调整集群规模以自适应促销流量的增长，确保服务工作正常，无需人工介入",
+			"param": "[]"
+		}, {
+			"oid": 975,
+			"title": " 使用弹性缓存与数据库集群无缝衔接，确保每个用户的会话数据高速返回，保障销量正常",
+			"param": "[]"
+		}, {
+			"oid": 976,
+			"title": " 使用本地硬盘而非对象存储COS，应对大量热点文件，需要频繁访问数据的业务场景，以满足低访问时延和高吞吐量",
+			"param": "[]"
+		}],
+		"rightoids": [976]
+	}, {
+		"title": "以下关于API网关的功能优势描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 245,
+		"feedback": "在统一位置完成全部的 API 管理，覆盖 API 的创建、维护、发布的全部生命周期管理。通过 API 网关，可以把来自 SCF 的无服务器函数、CVM 上的 Web 服务、用户自身的 Web 服务进行统一的封装管理。详见https://cloud.tencent.com/document/product/628/11757",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 977,
+			"title": " 为配置的API提供统一的鉴权和认证方法",
+			"param": "[]"
+		}, {
+			"oid": 978,
+			"title": " 能为每个环境、API、认证人群提供不一样的流控策略和配额限制",
+			"param": "[]"
+		}, {
+			"oid": 979,
+			"title": " 依赖腾讯大平台的负载能力，不惧突发大请求",
+			"param": "[]"
+		}, {
+			"oid": 980,
+			"title": " 需要多套后端服务来服务多个终端",
+			"param": "[]"
+		}],
+		"rightoids": [980]
+	}, {
+		"title": "您拥有一家成立2年且高速增长的电商企业，您打算把所有业务都迁移到腾讯云。目前本地有200台服务器，您在腾讯云上部署了一个10.0.0.0/24的VPC网段用于现有和将来的所有需要，此规划将会导致以下哪项问题的出现?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 246,
+		"feedback": "10.0.0.0/24,刨去2个预留的IP地址,包含的IP地址数为254,目前本地有200台服务器,至少要占用200个P地址,留给以后扩展用的服务器的IP地址数不多,故选择B",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 981,
+			"title": " 不足以存放现有的200台服务器",
+			"param": "[]"
+		}, {
+			"oid": 982,
+			"title": " 将会限制未来的服务器规模增长",
+			"param": "[]"
+		}, {
+			"oid": 983,
+			"title": " 将会导致网络性能下降",
+			"param": "[]"
+		}, {
+			"oid": 984,
+			"title": " 会造成大量的网络地址浪费",
+			"param": "[]"
+		}],
+		"rightoids": [982]
+	}, {
+		"title": "下列关于腾讯云消息队列产品功能说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 247,
+		"feedback": "腾讯云消息队列（Cloud Message Queue，CMQ）是一种分布式消息队列服务，它能够提供可靠的基于消息的异步通信机制。详见https://cloud.tencent.com/product/cmq",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 985,
+			"title": " 采用同步通信协议:消息的发送与处理是完全同步的",
+			"param": "[]"
+		}, {
+			"oid": 986,
+			"title": " 提高可靠性:发送消息时若接收者不可用，消息队列会保留消息直到成功传递它",
+			"param": "[]"
+		}, {
+			"oid": 987,
+			"title": " 进程解耦:消息队列可减少两个进程间的耦合度",
+			"param": "[]"
+		}, {
+			"oid": 988,
+			"title": " 消息路由:发送者无需与接收者建立直接连接，双方通过消息队列保证消息能够从发送者路由到接收者",
+			"param": "[]"
+		}],
+		"rightoids": [985]
+	}, {
+		"title": "腾讯云某些资源的使用范围有地域和可用区的限制。下列哪项资源只属于单个选定的地域及可用区?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 248,
+		"feedback": "云硬盘可在同一可用区内自由挂载、卸载，无需关闭/重启云服务器。云硬盘的容量可弹性配置，按需扩容。详见https://cloud.tencent.com/document/product/362/3065",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 989,
+			"title": " SSH密钥",
+			"param": "[]"
+		}, {
+			"oid": 990,
+			"title": " 私有网络",
+			"param": "[]"
+		}, {
+			"oid": 991,
+			"title": " 云硬盘",
+			"param": "[]"
+		}, {
+			"oid": 992,
+			"title": " 安全组",
+			"param": "[]"
+		}],
+		"rightoids": [991]
+	}, {
+		"title": "小明在腾讯云上用以下方式部署了企业的业务:用户是通过云解析开始的业务访问，云解析产品分别将流量分发到了上海和广州两个地域，其中广州地域是主要客户来源地，分别将业务部署在广州一区和广州二区，在上海和广州地域的入口处，分别部署了负载均衡产品来实现流量的承载，在每个负载均衡背后都通过弹性伸缩来实现了云服务器的高峰期业务支撑，两个地域的业务之间通信需求，通过腾讯云上的对等连接实现。以下关于小明设计的这套业务架构描述中，正确的是哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 249,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 993,
+			"title": " 将业务部署在广州的两个可用区与上海地域，可以提供跨地域的容灾能力，提升了业务的可用性",
+			"param": "[]"
+		}, {
+			"oid": 994,
+			"title": " 云解析将流量分发到广州和上海两个地域，从整体上降低了用户访问中断的可能性",
+			"param": "[]"
+		}, {
+			"oid": 995,
+			"title": " 合理的配置弹性伸缩可以提升业务高峰期时，提供服务的整体性价比",
+			"param": "[]"
+		}, {
+			"oid": 996,
+			"title": " 在两个地域之间使用对等连接来实现通信需求，可以大大降低通信的延时和抖动，提供更好的通信效果与性价比",
+			"param": "[]"
+		}],
+		"rightoids": [993, 994, 995, 996]
+	}, {
+		"title": "关于腾讯云的定时伸缩策略，下列说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 250,
+		"feedback": "定时伸缩适用于业务呈周期性变化或可预期。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 997,
+			"title": " 定时伸缩策略就是设置定时任务，对设备扩展活动进行规划",
+			"param": "[]"
+		}, {
+			"oid": 998,
+			"title": " 定时及周期性地自动增加或减少CVM实例，支持按天/周/月重复操作，从而灵活应对业务负载变化，提高设备利用率，节省部署成本和实例费用",
+			"param": "[]"
+		}, {
+			"oid": 999,
+			"title": " 适用于负载变化情况是未知的场景",
+			"param": "[]"
+		}, {
+			"oid": 1000,
+			"title": " 适用于业务呈周期性变化或可预期未知的场景",
+			"param": "[]"
+		}],
+		"rightoids": [999]
+	}, {
+		"title": "关于CDN全球调度体系(GSLB)的作用，下列说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 251,
+		"feedback": "GSLB只是探测获取全网链路质量,",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1001,
+			"title": " GSLB系统上缓存了用户所需的数据，可以直接提供服务",
+			"param": "[]"
+		}, {
+			"oid": 1002,
+			"title": " 实现在广域网或互联网上不同地域服务器间的流量调配",
+			"param": "[]"
+		}, {
+			"oid": 1003,
+			"title": " 保证使用最佳的服务器服务离自己最近的客户，从而确保访问质量",
+			"param": "[]"
+		}, {
+			"oid": 1004,
+			"title": " 可根据地理位置信息解析对应的IP地址，使得用户能就近访问",
+			"param": "[]"
+		}],
+		"rightoids": [1001]
+	}, {
+		"title": "一个完整的VPN 连接是由多个部分组成的，以下哪项描述不属于VPN连接的组成部分?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 252,
+		"feedback": "VPN连接由VPN网关、对端网关、VPN通道构成。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1005,
+			"title": " VPN网关",
+			"param": "[]"
+		}, {
+			"oid": 1006,
+			"title": " 对端网关",
+			"param": "[]"
+		}, {
+			"oid": 1007,
+			"title": " VPN通道",
+			"param": "[]"
+		}, {
+			"oid": 1008,
+			"title": " 专线通道",
+			"param": "[]"
+		}],
+		"rightoids": [1008]
+	}, {
+		"title": "在设计解耦架构时，往往都会采用消息队列技术，以下关于此现象的描述中，最准确的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 253,
+		"feedback": "解耦架构的目的是降低系统耦合度，提高伸缩性，但并不会给系统本身带来性能提升",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1009,
+			"title": " 使用消息队列技术可以降低系统的耦合度，提升性能",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1010,
+			"title": " 消息队列提升优化了业务本身的逻辑",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1011,
+			"title": " 使用消息队列可以提升运维人员的运维效率",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1012,
+			"title": " 消息队列产品的加入可以实现高伸缩架构",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1012]
+	}, {
+		"title": "您在腾讯云上的北京地域购买了一个CDB For MysQL，购买后发现前端的服务器无法连接数据库，可能是以下哪些原因导致的",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 254,
+		"feedback": "root密码太弱只会带来安全风险，并不会造成无法连接数据库。只有当root密码错误的时候，会无法连接数据库。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1013,
+			"title": " 数据库的安全组未开通3306端口",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1014,
+			"title": " 服务器和数据库不在同一个私有网络",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1015,
+			"title": " 服务器和数据库分别位于同一个私有网络的不同子网",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1016,
+			"title": " 数据库的root密码太弱",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1013, 1014, 1015]
+	}, {
+		"title": "您是一家传统的IT服务厂商，近期打算将服务上线云平台，云平台客服向您推荐使用API网关，以下关于API网关能解决的问题描述中，正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 255,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1017,
+			"title": " 统一调用入口",
+			"param": "[]"
+		}, {
+			"oid": 1018,
+			"title": " 封装后端各种服务，隐藏后端细节",
+			"param": "[]"
+		}, {
+			"oid": 1019,
+			"title": " 提供统—鉴权认证",
+			"param": "[]"
+		}, {
+			"oid": 1020,
+			"title": " 通过参数、路径、协议的转换映射，适配后端的实际服务",
+			"param": "[]"
+		}],
+		"rightoids": [1017, 1018, 1019, 1020]
+	}, {
+		"title": "您公司经营了一个大型游戏APP，经常会进行游戏更新以修复漏洞和增加趣味性，但是用户经常反应进行游戏内更新时，更新进度条走的太慢，体验太差，此时您应该使用腾讯云CDN的哪项业务场景来解决用户投诉?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 256,
+		"feedback": "下载加速业务是针对游戏安装包获取、手机 ROM 升级、应用程序包下载等业务场景，提供稳定、优质的下载加速。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1021,
+			"title": " 静态加速",
+			"param": "[]"
+		}, {
+			"oid": 1022,
+			"title": " 流媒体点播加速",
+			"param": "[]"
+		}, {
+			"oid": 1023,
+			"title": " 下载加速",
+			"param": "[]"
+		}, {
+			"oid": 1024,
+			"title": " 全球应用加速",
+			"param": "[]"
+		}],
+		"rightoids": [1023]
+	}, {
+		"title": "下列选项中不属于腾讯云存储产品的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 257,
+		"feedback": "COS对象存储、CFS文件存储、CAS归档存储都是存储产品。CPM黑石物理服务器是按需购买、按量付费的物理服务器租赁服务，为您提供云端专用、安全隔离的高性能物理集群。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1025,
+			"title": " COS",
+			"param": "[]"
+		}, {
+			"oid": 1026,
+			"title": " CFS",
+			"param": "[]"
+		}, {
+			"oid": 1027,
+			"title": " CAS",
+			"param": "[]"
+		}, {
+			"oid": 1028,
+			"title": " CPM",
+			"param": "[]"
+		}],
+		"rightoids": [1028]
+	}, {
+		"title": "全站加速网络(Enterprse Content Dlivery Network，CDN)(原动态加速网络DSA)为您提供全新高性能的一站式加速服务体验，实现了动静态混合型资源快速稳定的高效传输。将静态边缘缓存与动态回源路径优化相融合，智能调度最优服务节点，自动识别动静态资源。下列关于ECDN计费说法正确的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 258,
+		"feedback": "使用ECDN，您可以享受一定额度的免费流量。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1029,
+			"title": " ECDN目前是免费使用的",
+			"param": "[]"
+		}, {
+			"oid": 1030,
+			"title": " ECDN只按次数计费",
+			"param": "[]"
+		}, {
+			"oid": 1031,
+			"title": " ECDN只按流量计费",
+			"param": "[]"
+		}, {
+			"oid": 1032,
+			"title": " ECDN会根据实际请求次数给予一定的免费流量额度",
+			"param": "[]"
+		}],
+		"rightoids": [1032]
+	}, {
+		"title": "某用户购买了腾讯云的Anycast公网加速服务，下列选项关于Anycast公网加速服务连接流程顺序正确的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 259,
+		"feedback": "Anycast连接流程：创建Anycast型EIP->绑定后端资源->用加速EIP连接公网。详见https://cloud.tencent.com/document/product/644/12631",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1033,
+			"title": " 加速EIP连接公网->创建Anycast型EIP->绑定后端资源",
+			"param": "[]"
+		}, {
+			"oid": 1034,
+			"title": " 创建Anycast型EIP->绑定后端资源->用加速EIP连接公网",
+			"param": "[]"
+		}, {
+			"oid": 1035,
+			"title": " 加速EIP连接公网->绑定后端资源->创建Anycast型EIP",
+			"param": "[]"
+		}, {
+			"oid": 1036,
+			"title": " 创建Anycast型EIP->用加速EIP连接公网->绑定后端资源",
+			"param": "[]"
+		}],
+		"rightoids": [1034]
+	}, {
+		"title": "某电商网站传统IDC中自行部署nginx做接入层的负载均衡，经常出现丢包频繁，二级域名无法精准匹配，域名解析速度慢等问题。当前为解决这些问题，准备利用腾讯云负载均衡服务进行架构设计，下列具体设计中错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 260,
+		"feedback": "传统型负载均衡实例中,只能一个前端端口对应一个后端端口",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1037,
+			"title": " 采用公网应用型负载均衡提供基于内容的路由转发能力",
+			"param": "[]"
+		}, {
+			"oid": 1038,
+			"title": " 通过自定义转发路径代替二级域名，有效减少DNS轮询次数，提升用户访问速度",
+			"param": "[]"
+		}, {
+			"oid": 1039,
+			"title": " 在同一个传统型负载均衡实例中，一个前端端口可对应多个后端端口",
+			"param": "[]"
+		}, {
+			"oid": 1040,
+			"title": " 结合弹性伸缩Autoscaling能最大限度的节省IT成本",
+			"param": "[]"
+		}],
+		"rightoids": [1039]
+	}, {
+		"title": "腾讯云上提供了非常优良的CDN服务，以下关于腾讯云上CDN能够支持的内容类型和网络位置的描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 261,
+		"feedback": "腾讯云CDN支持的场景：网站加速（静态加速）、下载加速、音视频加速（在线音视频播放加速）、全站加速（纯动态或者动静态资源混合型资源加速）、安全加速。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1041,
+			"title": " 腾讯云CDN支持静态内容加速场景",
+			"param": "[]"
+		}, {
+			"oid": 1042,
+			"title": " 腾讯云CDN支持音视频点播加速场景",
+			"param": "[]"
+		}, {
+			"oid": 1043,
+			"title": " 腾讯云CDN支持下载分发加速场景",
+			"param": "[]"
+		}, {
+			"oid": 1044,
+			"title": " 腾讯云CDN支持动态内容加速场景",
+			"param": "[]"
+		}],
+		"rightoids": [1042]
+	}, {
+		"title": "以下关于系统的高扩展性设计原则的描述中，正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 262,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1045,
+			"title": " 高扩展的核心指导思想是解耦",
+			"param": "[]"
+		}, {
+			"oid": 1046,
+			"title": " 在实现业务的解耦过程中，应尽可能的多使用标准的云组件",
+			"param": "[]"
+		}, {
+			"oid": 1047,
+			"title": " 应该将业务以微服务化的方式进行部署",
+			"param": "[]"
+		}, {
+			"oid": 1048,
+			"title": " 在考虑扩展性的同时要做好计算和数据的分离工作",
+			"param": "[]"
+		}],
+		"rightoids": [1045, 1046, 1047, 1048]
+	}, {
+		"title": "某企业在腾讯云上建立网站，将应用数据都保存在关系型数据库管理系统RDBMS中，导致数据库负载很高，响应变慢。下列哪种方法无法缓解以上数据库高负载的问题?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 263,
+		"feedback": "全站加速是纯动态或者动静态资源混合型资源加速",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1049,
+			"title": " 热点数据缓存到内存数据库比如Memcached和Redis中，加快响应数据",
+			"param": "[]"
+		}, {
+			"oid": 1050,
+			"title": " 将静态数据保存到对象存储COS中，分担数据库压力",
+			"param": "[]"
+		}, {
+			"oid": 1051,
+			"title": " 静态数据缓存到CDN节点，让数据更靠近用户",
+			"param": "[]"
+		}, {
+			"oid": 1052,
+			"title": " 启用全站加速网络，提高用户访问静态数据的速度",
+			"param": "[]"
+		}],
+		"rightoids": [1052]
+	}, {
+		"title": "社交应用在使用过程中，频繁查询用户的好友关系会消耗大量的系统资源，降低数据的响应速度，请问在架构中加入腾讯云的哪项产品来最适合改善此问题?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 264,
+		"feedback": "互联网、App 应用产品中，可以将用户的基础资料缓存至 Redis 中，提高读性能。同时也可以将静态的图片，资源缓存到 Redis 中，提高应用加载速度。详见https://cloud.tencent.com/document/product/239/3249",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1053,
+			"title": " CMQ",
+			"param": "[]"
+		}, {
+			"oid": 1054,
+			"title": " Redis",
+			"param": "[]"
+		}, {
+			"oid": 1055,
+			"title": " COS存储",
+			"param": "[]"
+		}, {
+			"oid": 1056,
+			"title": " SSD云硬盘",
+			"param": "[]"
+		}],
+		"rightoids": [1054]
+	}, {
+		"title": "您在腾讯云上购买了一个负载均衡用于网站，您需要在自己的电脑上验证负载均衡是否执行了轮询策略，此时您需要关闭以下哪项功能才可以尽快看到轮询效果?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 265,
+		"feedback": "开启会话保持后，负载均衡监听会把来自同一客户端的访问请求分发到同一台后端服务器上。因此，验证轮询效果需要关闭会话保持。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1057,
+			"title": " 关闭安全组中的TCP 80端口",
+			"param": "[]"
+		}, {
+			"oid": 1058,
+			"title": " 将监听器由HTTP更换为TCP",
+			"param": "[]"
+		}, {
+			"oid": 1059,
+			"title": " 关闭健康检查",
+			"param": "[]"
+		}, {
+			"oid": 1060,
+			"title": " 关闭会话保持",
+			"param": "[]"
+		}],
+		"rightoids": [1060]
+	}, {
+		"title": "腾讯微服务平台TSF是一个围绕着应用和微服务的PaaS平台，具有应用全生命周期管理、数据化运营和立体化监控等功能，下列不属于TSF优势的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 266,
+		"feedback": "TSF不自带消息队列",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1061,
+			"title": " 平台提供高可用的注册中心集群",
+			"param": "[]"
+		}, {
+			"oid": 1062,
+			"title": " 提供分布式事务解决方案",
+			"param": "[]"
+		}, {
+			"oid": 1063,
+			"title": " 自带消息队列",
+			"param": "[]"
+		}, {
+			"oid": 1064,
+			"title": " 与API网关等腾讯云其他服务打通，让企业轻松构建大型分布式系统",
+			"param": "[]"
+		}],
+		"rightoids": [1063]
+	}, {
+		"title": "下列哪个角色不属于腾讯微服务平台TSF服务注册与发现中的角色?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 267,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1065,
+			"title": " 服务提供者",
+			"param": "[]"
+		}, {
+			"oid": 1066,
+			"title": " 服务调用者",
+			"param": "[]"
+		}, {
+			"oid": 1067,
+			"title": " 服务注册中心",
+			"param": "[]"
+		}, {
+			"oid": 1068,
+			"title": " 服务监控者",
+			"param": "[]"
+		}],
+		"rightoids": [1068]
+	}, {
+		"title": "腾讯云可选数据库分为关系型和非关系型两种，下列属于非关系型数据库的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 268,
+		"feedback": "Redis是非关系型数据库",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1069,
+			"title": " 分布式数据库TDSQL",
+			"param": "[]"
+		}, {
+			"oid": 1070,
+			"title": " 云数据库Redis",
+			"param": "[]"
+		}, {
+			"oid": 1071,
+			"title": " 云数据PostgresQL",
+			"param": "[]"
+		}, {
+			"oid": 1072,
+			"title": " 分布式HTAP数据Tbase",
+			"param": "[]"
+		}],
+		"rightoids": [1070]
+	}, {
+		"title": "某公司在公司机房搭建了论坛网站，发布到互联网。论坛网站的前端使用负载均衡设备和4台4C16GB的物理服务器承载。服务器的性能完全足够承受负载压力，但是由于该公司所处办公楼是一座老楼房，每年都会有三四次电路故障或电路维护，导致整个机房断电。因此，该公司为了解决业务的高可用、容灾等问题，决定将该论坛网站迁移到腾讯云，该公司的论坛主要用户群位于广东省。以下关于此公司的云架构设计描述中，正确的有哪些项？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 269,
+		"feedback": "客户主要在广东省应该选择广州地域，可以选择至少两个可用区提供高可用性，问一下客户在本地平峰期的资源占用，并以此作为云上的机器配置，分布到两个可用区，配置弹性伸缩作为高峰期的能力提供",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1073,
+			"title": " 应该将主要资源配置到广州地域",
+			"param": "[]"
+		}, {
+			"oid": 1074,
+			"title": " 在广州地域至少配置2个可用区提供高可用性",
+			"param": "[]"
+		}, {
+			"oid": 1075,
+			"title": " 咨询客户业务在平峰期的资源占用，并以此作为云上CVM 配置，将CVM分布到至少两个可用区",
+			"param": "[]"
+		}, {
+			"oid": 1076,
+			"title": " 配置弹性伸缩产品，进一步做到降低高峰期的成本支出",
+			"param": "[]"
+		}],
+		"rightoids": [1073, 1074, 1075, 1076]
+	}, {
+		"title": "您打算构建一套微服务平台用于分布式部署业务，希望能减轻应用的运维压力，避免应用发布和更新时牵一发而动全身，而且可以看到每次请求在各环节所消耗的时间，用于调优，以上需求可以使用腾讯云TSF的哪些功能？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 270,
+		"feedback": "通过TSF可以构建分布式系统，将业务以模块化部署，实现架构的松耦合，可以避免牵一发动全身，而数据化运营可以分析调用来源，以及处理请求每个环节所消耗的时间",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1077,
+			"title": " 分布式配置管理",
+			"param": "[]"
+		}, {
+			"oid": 1078,
+			"title": " 应用生命周期管理",
+			"param": "[]"
+		}, {
+			"oid": 1079,
+			"title": " 数据化运营",
+			"param": "[]"
+		}, {
+			"oid": 1080,
+			"title": " 分布式事务",
+			"param": "[]"
+		}],
+		"rightoids": [1077, 1078, 1079, 1080]
+	}, {
+		"title": "小明在腾讯云广州地域上设计了一个业务架构，具体在流量入口使用了负载均衡产品用于本地域所有可用区的流量分发，CVM 分别部署在广州一区和广州二区，在CVM产品层面使用了弹性伸缩产品，并在异地启用了一个备用的数据中心，小明在此架构中涉及到了以下哪些架构设计原则？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 271,
+		"feedback": "扩展性是指业务层面的扩展性，题干中并没有提及业务的模型以及部署和实现方式",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1081,
+			"title": " 高可用",
+			"param": "[]"
+		}, {
+			"oid": 1082,
+			"title": " 低成本",
+			"param": "[]"
+		}, {
+			"oid": 1083,
+			"title": " 伸缩性",
+			"param": "[]"
+		}, {
+			"oid": 1084,
+			"title": " 扩展性",
+			"param": "[]"
+		}],
+		"rightoids": [1081, 1082, 1083]
+	}, {
+		"title": "小明在腾讯云上设计的架构如下：在互联网入口处部署了七层的CLB，分别针对不对的资源域名建立了监听器和转发规则，例如image.xxx.xxx代表了图片资源，flash.xxx.xxx代表了flash资源等，每个转发规则背后分别绑定了存储不同内容的服务器，关于小明的架构设计描述中，正确的有哪些项？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 272,
+		"feedback": "SSL证书的成本不会因为使用了负载均衡而导致上升",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1085,
+			"title": " 针对不同的资源类型建立转发规则可以分流网络流量",
+			"param": "[]"
+		}, {
+			"oid": 1086,
+			"title": " 网站服务器如果使用七层的负载均衡将会导致SSL证书费用上升的问题",
+			"param": "[]"
+		}, {
+			"oid": 1087,
+			"title": " 在架构中部署CLB可以提升架构的可用性和性能",
+			"param": "[]"
+		}, {
+			"oid": 1088,
+			"title": " 每个转发规则背后绑定不同内容的服务器可以更有针对性的配置服务器规格",
+			"param": "[]"
+		}],
+		"rightoids": [1085, 1087, 1088]
+	}, {
+		"title": "您已经在腾讯云上使用了CDN服务来加速用户体验，但是您担心如果大量的DDoS攻击来临时，可能会额外支出大量不必要的费用，此时您应该使用以下哪项配置来避免超出预期的带宽流量费用？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 273,
+		"feedback": "开启带宽封顶阈值配置后，再超过指定的带宽后，采用直接回源的方式来避免大量的CDN流量费用问题",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1089,
+			"title": " 带宽封顶阈值",
+			"param": "[]"
+		}, {
+			"oid": 1090,
+			"title": " 缓存过期时间",
+			"param": "[]"
+		}, {
+			"oid": 1091,
+			"title": " 访问控制",
+			"param": "[]"
+		}, {
+			"oid": 1092,
+			"title": " 回源配置",
+			"param": "[]"
+		}],
+		"rightoids": [1089]
+	}, {
+		"title": "您希望在腾讯云上部署一个电商类网站，根据本地的经验，8C16G的需要购买10台，才能应对用户的访问流量，那么以下关于这10台服务器应使用的付费方式与应用场景的描述中，正确的有哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 274,
+		"feedback": "平峰期运行业务的服务器应该包年包月，高峰期临时的机器应该按量计费",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1093,
+			"title": " 应该全部使用包年包月的付费方式",
+			"param": "[]"
+		}, {
+			"oid": 1094,
+			"title": " 应该全部使用按量计费的付费方式",
+			"param": "[]"
+		}, {
+			"oid": 1095,
+			"title": " 应该全部使用按量计费竞价实例的付费方式",
+			"param": "[]"
+		}, {
+			"oid": 1096,
+			"title": " 应该包年包月和按量计费混合使用",
+			"param": "[]"
+		}],
+		"rightoids": [1096]
+	}, {
+		"title": "前端的业务网站流量太高，请求量非常大，导致后端的CDB压力太高，此时您可以通过以下哪项腾讯云产品解决后端的压力过高问题？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 275,
+		"feedback": "流量过大导致后端数据库压力，可以在架构中加入CRS产品来解决压力问题",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1097,
+			"title": " 高速缓存数据库CRS",
+			"param": "[]"
+		}, {
+			"oid": 1098,
+			"title": " 高性能的负载均衡CLB",
+			"param": "[]"
+		}, {
+			"oid": 1099,
+			"title": " 容器服务TKE",
+			"param": "[]"
+		}, {
+			"oid": 1100,
+			"title": " 分布式服务框架TSF",
+			"param": "[]"
+		}],
+		"rightoids": [1097]
+	}, {
+		"title": "您目前正在给客户规划一个用于中小型的Web应用服务器，您可以选择使用以下哪项腾讯云服务器类型？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 277,
+		"feedback": "中小型Web应用、中小型数据库系统、缓存、搜索集群等，适合选择标准型",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1105,
+			"title": " 标准型",
+			"param": "[]"
+		}, {
+			"oid": 1106,
+			"title": " 计算型",
+			"param": "[]"
+		}, {
+			"oid": 1107,
+			"title": " 内存型",
+			"param": "[]"
+		}, {
+			"oid": 1108,
+			"title": " GPU型",
+			"param": "[]"
+		}],
+		"rightoids": [1105]
+	}, {
+		"title": "您在腾讯云上创建了一个弹性伸缩组，近期此业务测试完成后打算下线，您发现全选前端用于测试的CVM，点击删除后，过一段时间，CVM会再次自动完成购买，经过排查，是由于弹性伸缩的原因，但是您发现，伸缩组的删除按钮是灰色的，您可以执行以下哪项选择来完成伸缩组的删除？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 278,
+		"feedback": "在伸缩组属性中，将最小、最大伸缩实例数修改为0并保存，稍等片刻，即可删除伸缩组",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1109,
+			"title": " 在伸缩组属性中，点击停用，然后删除前端服务器，再次启用伸缩组",
+			"param": "[]"
+		}, {
+			"oid": 1110,
+			"title": " 在伸缩组属性中，将最小、最大伸缩实例数修改为0并保存，稍等片刻，即可删除伸缩组",
+			"param": "[]"
+		}, {
+			"oid": 1111,
+			"title": " 将所有as开头的CVM实例的名称修改为其他名称，然后就可以删除伸缩组",
+			"param": "[]"
+		}, {
+			"oid": 1112,
+			"title": " 将伸缩组禁用24小时后，再次启用即可删除",
+			"param": "[]"
+		}],
+		"rightoids": [1110]
+	}, {
+		"title": "在腾讯云上部署业务时，必须考虑将业务部署到哪些区域，以下关于在部署业务时，选择地域的原则描述中，错误的是哪项",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 279,
+		"feedback": "如无分布式部署需要，尽量将产品放在一个地域，可以节约大量的跨地域通信费用，但是将产品放在同一个可用区将会违反冗余设计，人为制造了单点故障",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1113,
+			"title": " 选择最靠近客户的地域",
+			"param": "[]"
+		}, {
+			"oid": 1114,
+			"title": " 如无分布式部署需要，尽量将产品放在一个地域",
+			"param": "[]"
+		}, {
+			"oid": 1115,
+			"title": " 同一地域内网互通，可降低流量费用",
+			"param": "[]"
+		}, {
+			"oid": 1116,
+			"title": " 如无分布式部署需要，尽量将产品放在一个可用区",
+			"param": "[]"
+		}],
+		"rightoids": [1116]
+	}, {
+		"title": "私有网络内的CVM 想要主动的访问互联网有多种方式，其中以下哪项接入互联网的描述是错误的？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 280,
+		"feedback": "对等连接主要适用于内网互联互通的情况",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1117,
+			"title": " 公网IP",
+			"param": "[]"
+		}, {
+			"oid": 1118,
+			"title": " NAT网关",
+			"param": "[]"
+		}, {
+			"oid": 1119,
+			"title": " 公网网关",
+			"param": "[]"
+		}, {
+			"oid": 1120,
+			"title": " 对等连接",
+			"param": "[]"
+		}],
+		"rightoids": [1120]
+	}, {
+		"title": "业务高可用性概率具体的算法为：MTTF/(MTTF+MTTR) * 100%，那么如果可用性级别为5个9，以下关于年度停机时间的描述中，正确的有哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 281,
+		"feedback": "(365*24*60-5)/(365*24*60)*100%=99.99904870624049，保留5位小数点为5个9。详见[url=https://cloud.tencent.com/developer/article/1625358]https://cloud.tencent.com/developer/article/1625358[/url]",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1121,
+			"title": " 5分钟",
+			"param": "[]"
+		}, {
+			"oid": 1122,
+			"title": " 53分钟",
+			"param": "[]"
+		}, {
+			"oid": 1123,
+			"title": " 8.8小时",
+			"param": "[]"
+		}, {
+			"oid": 1124,
+			"title": " 87.6小时",
+			"param": "[]"
+		}],
+		"rightoids": [1121]
+	}, {
+		"title": "源站类型为源站 IP 时，需要满足哪些条件？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 282,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1125,
+			"title": " 填入的 IP 为内网 IP",
+			"param": "[]"
+		}, {
+			"oid": 1126,
+			"title": " 可支持多个 IP",
+			"param": "[]"
+		}, {
+			"oid": 1127,
+			"title": " 回源请求会依次轮流访问各 IP",
+			"param": "[]"
+		}, {
+			"oid": 1128,
+			"title": " 失败次数无限制",
+			"param": "[]"
+		}],
+		"rightoids": [1126, 1127]
+	}, {
+		"title": "分层解耦的云架构和传统架构相比，具有非常多的优势，也解决了传统架构非常多的痛点，以下关于传统架构痛点的描述中，正确的有哪些项？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 283,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1129,
+			"title": " 系统紧耦合，效率低，难扩展",
+			"param": "[]"
+		}, {
+			"oid": 1130,
+			"title": " “烟囱式” 结构，形成资源和信息孤岛",
+			"param": "[]"
+		}, {
+			"oid": 1131,
+			"title": " 流程化系统拼图，效率低",
+			"param": "[]"
+		}, {
+			"oid": 1132,
+			"title": " 突发的海量业务，无法高效处理消息",
+			"param": "[]"
+		}],
+		"rightoids": [1129, 1130, 1131, 1132]
+	}, {
+		"title": "下列关于腾讯云服务扩展配置说法正确的有哪些？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 284,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1133,
+			"title": " 根据预测业务流量手动进行弹性伸缩扩展云服务器",
+			"param": "[]"
+		}, {
+			"oid": 1134,
+			"title": " 横向伸缩数据库层减轻数据库负载",
+			"param": "[]"
+		}, {
+			"oid": 1135,
+			"title": " 通过控制台或 API 扩容云硬盘以增加存储空间",
+			"param": "[]"
+		}, {
+			"oid": 1136,
+			"title": " 合理的进行网络容量规划，必要时可上调带宽上限",
+			"param": "[]"
+		}],
+		"rightoids": [1134, 1135, 1136]
+	}, {
+		"title": "腾讯云提供了多种接入 Internet 的方式。下列哪项产品的功能不是用来提供 Internet接入能力的？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 285,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1137,
+			"title": " 公网网关",
+			"param": "[]"
+		}, {
+			"oid": 1138,
+			"title": " NAT网关",
+			"param": "[]"
+		}, {
+			"oid": 1139,
+			"title": " 弹性公网IP",
+			"param": "[]"
+		}, {
+			"oid": 1140,
+			"title": " API网关",
+			"param": "[]"
+		}],
+		"rightoids": [1140]
+	}, {
+		"title": "下列关于私有网络、子网和路由表的说法中，错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 286,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1141,
+			"title": " 私有网络只能含有一个子网",
+			"param": "[]"
+		}, {
+			"oid": 1142,
+			"title": " 用户可以同时创建多个子网",
+			"param": "[]"
+		}, {
+			"oid": 1143,
+			"title": " 每个子网都需要管理路由表",
+			"param": "[]"
+		}, {
+			"oid": 1144,
+			"title": " 路由表用于控制私有网络内子网的出流量走向",
+			"param": "[]"
+		}],
+		"rightoids": [1141]
+	}, {
+		"title": "以下关于公网网关描述正确的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 287,
+		"feedback": "公网网关是开启了转发功能的云主机,在没有外网IP但需要进行Internet访问的云服务器可通过位于不同子网的公网网关来访问Internet。公网网关主机将对公网流量进行源地址转换,所有云服务器访问外网的流量经过公网网关后,I都被转换为公网网关主机的IP地址",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1145,
+			"title": " 公网网关是开启了转发功能的云主机",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1146,
+			"title": " 公网网关是开启了转发功能的路由器",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1147,
+			"title": " 公网网关是开启了转发功能的 VPN 网关",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1148,
+			"title": " 公网网关是开启了转发功能的 NAT 网关",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1145]
+	}, {
+		"title": "在云监控图表中可以选择不同的展示时间跨度，不同时间跨度默认统计的数据粒度也各不相同，如果选择展示时间跨度为≤3 天，那么默认统计时间粒度是以下哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 288,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1149,
+			"title": " 1 分钟",
+			"param": "[]"
+		}, {
+			"oid": 1150,
+			"title": " 5 分钟",
+			"param": "[]"
+		}, {
+			"oid": 1151,
+			"title": " 1 小时",
+			"param": "[]"
+		}, {
+			"oid": 1152,
+			"title": " 1 天",
+			"param": "[]"
+		}],
+		"rightoids": [1151]
+	}, {
+		"title": "腾讯云文件存储单文件系统容量的上限是多大？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 289,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1153,
+			"title": " 20TB",
+			"param": "[]"
+		}, {
+			"oid": 1154,
+			"title": " 40TB",
+			"param": "[]"
+		}, {
+			"oid": 1155,
+			"title": " 60TB",
+			"param": "[]"
+		}, {
+			"oid": 1156,
+			"title": " 160TB",
+			"param": "[]"
+		}],
+		"rightoids": [1156]
+	}, {
+		"title": "腾讯云中，2049 端口通常用于什么产品？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 290,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1157,
+			"title": " 腾讯云文件存储",
+			"param": "[]"
+		}, {
+			"oid": 1158,
+			"title": " 腾讯云网络加速",
+			"param": "[]"
+		}, {
+			"oid": 1159,
+			"title": " 腾讯云数据同步",
+			"param": "[]"
+		}, {
+			"oid": 1160,
+			"title": " 腾讯云安全监控",
+			"param": "[]"
+		}],
+		"rightoids": [1157]
+	}, {
+		"title": "以下关于在架构中加入 CDN 后，业务的访问顺序描述中，正确的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 291,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1161,
+			"title": " 1、用户向浏览器提供要访问的域名，2、浏览器请求 DNS 服务器对域名进行解析，3、DNS服务器得到该域名对应的 CNAME 记录，4、浏览器得到 CDN 节点 IP 并发起请求，5、CDN 节点返回内容",
+			"param": "[]"
+		}, {
+			"oid": 1162,
+			"title": " 1、用户向浏览器提供要访问的域名，2、DNS 服务器得到该域名对应的 CNAME 记录，3、浏览器请求 DNS 服务器对域名进行解析，4、浏览器得到 CDN 节点 IP 并发起请求，5、CDN节点返回内容",
+			"param": "[]"
+		}, {
+			"oid": 1163,
+			"title": " 1、用户向浏览器提供要访问的域名，2、浏览器得到 CDN 节点 IP 并发起请求，3、浏览器请求 DNS 服务器对域名进行解析，4、DNS 服务器得到该域名对应的 CNAME 记录，5、CDN 节点返回内容",
+			"param": "[]"
+		}, {
+			"oid": 1164,
+			"title": " 1、用户向浏览器提供要访问的域名，2、浏览器得到 CDN 节点 IP 并发起请求，3、浏览器请求 DNS 服务器对域名进行解析，4、CDN 节点返回内容，5、DNS 服务器得到该域名对应的CNAME 记录",
+			"param": "[]"
+		}],
+		"rightoids": [1161]
+	}, {
+		"title": "假设您首次接触云服务且建站时间不长，网站负载较低，购买相同配置的后端服务器，此时后端服务器都是无差别的接入层服务器，此时您应该选择选择负载均衡的哪项调度算法？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 292,
+		"feedback": "网站的HTTP请求类型和HTTP占用后端时间偏差不大时,推荐使用加权轮询算法,因为该实现方式消耗小，无需遍历，效率较高",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1165,
+			"title": " 加权轮询算法",
+			"param": "[]"
+		}, {
+			"oid": 1166,
+			"title": " 加权最小连接数算法",
+			"param": "[]"
+		}, {
+			"oid": 1167,
+			"title": " 源地址散列调度算法",
+			"param": "[]"
+		}, {
+			"oid": 1168,
+			"title": " 加权源地址散列调度算法",
+			"param": "[]"
+		}],
+		"rightoids": [1165]
+	}, {
+		"title": "您在网络 ACL 的规则中做了如下设置，第一条规则：允许 192.168.200.0/24 访问 TCP 80 端口，第二条规则：拒绝 192.168.200.100 这个 IP 访问 TCP 80 端口，除此之外没有主动设置其他规则，以下关于此网络 ACL 最后的效果描述中，错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 293,
+		"feedback": "ACL规则从上往下开始匹配,如果规则之间有冲突,应用优先级最高的规则,第一条规则允许192.168.200这个的网段访问TCP 80端口,即使第二条规则,对该网段下.100的IP访问拒绝,但是与第一条规则冲突,故192.168.200.100这个地址还是能访问TCP 80端口",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1169,
+			"title": " 192.168.200.0/24 整个网段将允许访问 TCP 80 端口",
+			"param": "[]"
+		}, {
+			"oid": 1170,
+			"title": " 192.168.200.100 这个 IP 将无法访问 TCP 80 端口",
+			"param": "[]"
+		}, {
+			"oid": 1171,
+			"title": " 除了 192.168.200.0/24 这个网段外的其他所有地址都无法访问 TCP 80",
+			"param": "[]"
+		}, {
+			"oid": 1172,
+			"title": " 192.168.200.100 这个地址最终也能成功访问 TCP 80 端口 ",
+			"param": "[]"
+		}],
+		"rightoids": [1170]
+	}, {
+		"title": "以下关于腾讯云中网络产品的概念以及其关系描述中，错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 294,
+		"feedback": "每句话都正确,但是题干中指向腾讯云中网络产品,唯有C和网络产品没有关系",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1173,
+			"title": " 一个地域下可以包含多个私有网络",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1174,
+			"title": " 一个私有网络下可以包含多个子网",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1175,
+			"title": " 一个地域下可以包含多个可用区",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1176,
+			"title": " 一个可用区下可以包含多个子网",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1175]
+	}, {
+		"title": "您希望在腾讯云上部署一个论坛系统，在腾讯云上合理组合使用云产品可以降低业务部署成本，以下哪项产品本身的主要作用不是降低成本？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 295,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1177,
+			"title": " 弹性伸缩",
+			"param": "[]"
+		}, {
+			"oid": 1178,
+			"title": " 无服务器云函数",
+			"param": "[]"
+		}, {
+			"oid": 1179,
+			"title": " 竞价实例",
+			"param": "[]"
+		}, {
+			"oid": 1180,
+			"title": " 云镜",
+			"param": "[]"
+		}],
+		"rightoids": [1180]
+	}, {
+		"title": "架构师在设计业务的高可用时，应该遵守诸多设计原则，其中对高可用的设计原则描述错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 296,
+		"feedback": "CDN属于高性能设计的范畴,不应归纳在高可用范围内",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1181,
+			"title": " 评估系统需要达到的可用性分级",
+			"param": "[]"
+		}, {
+			"oid": 1182,
+			"title": " 采用冗余设计提高系统的容错性",
+			"param": "[]"
+		}, {
+			"oid": 1183,
+			"title": " 具备在架构不变的情况下，利用伸缩性来缓解高峰期以及业务增长期产生的压力",
+			"param": "[]"
+		}, {
+			"oid": 1184,
+			"title": " 在高并发时，采用 CDN 来解决用户访问延时较大的问题",
+			"param": "[]"
+		}],
+		"rightoids": [1184]
+	}, {
+		"title": "以下关于腾讯云上各种云安全产品功能的描述中，错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 297,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1185,
+			"title": " 大禹产品中的 BGP 高防包主要适用于保护用户自有机房免于遭受 DDOS 攻击",
+			"param": "[]"
+		}, {
+			"oid": 1186,
+			"title": " 大禹产品中的 BGP IP 主要适用于保护用户自有机房免于遭受 DDOS 攻击",
+			"param": "[]"
+		}, {
+			"oid": 1187,
+			"title": " 云镜产品主要提供主机级别的安全防护",
+			"param": "[]"
+		}, {
+			"oid": 1188,
+			"title": " 天御这款产品可以提供业务层面上的防护，例如验证码防护等",
+			"param": "[]"
+		}],
+		"rightoids": [1185]
+	}, {
+		"title": "下列哪种方法可以解决用户访问数据的地理位置和数据所在机房距离远，数据传输慢，访问体验差的问题?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 298,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1189,
+			"title": " CDN 或 DSA",
+			"param": "[]"
+		}, {
+			"oid": 1190,
+			"title": " NAT 网关",
+			"param": "[]"
+		}, {
+			"oid": 1191,
+			"title": " WAF",
+			"param": "[]"
+		}, {
+			"oid": 1192,
+			"title": " 高防 BGP",
+			"param": "[]"
+		}],
+		"rightoids": [1189]
+	}, {
+		"title": "创建云主机时，可以购买的网络带宽有哪几个计费标准？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 299,
+		"feedback": "计费概述:腾讯云提供的网络类型的运营商接入均为BGP多线路,保证线路质量。目前网络提供以下两种网络计费方式:按带宽计费:按公网传输速率(单位为Mbps)计费。当您的带宽利用率高于10%时,建议优先选择带宽计费。按带宽计费包括“按带宽包年包月计费”和“按带宽使用时长计费”两种带宽计费模式。按流量计费:按公网传输的数据总量(单位为GB)计费。当您的带宽利用率低于10%时,建议优先选择按流量计费https://cloud.tencent.com/document/product/213/10578",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1193,
+			"title": " 按使用流量计费",
+			"param": "[]"
+		}, {
+			"oid": 1194,
+			"title": " 按带宽计费",
+			"param": "[]"
+		}, {
+			"oid": 1195,
+			"title": " 按时长计费（每日）",
+			"param": "[]"
+		}, {
+			"oid": 1196,
+			"title": " 按时长计费（每月）",
+			"param": "[]"
+		}],
+		"rightoids": [1193, 1194]
+	}, {
+		"title": "腾讯云服务器 CVM 提供了数据的高可用性，满足工信部可信云认证 99.95%的服务可用性和 99.999%的数据可靠性，保证数据可靠性，让您可以放心的将数据放在云端，无需担心数据丢失，下列属于高可用性范畴的特性是（）",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 300,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1197,
+			"title": " 不停机备份",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1198,
+			"title": " 定时快照",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1199,
+			"title": " 跨机房备份",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1200,
+			"title": " 不停机热升级",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1197, 1199, 1200, 1198]
+	}, {
+		"title": "在腾讯云监控平台为了避免用户错过告警可以设置告警重复通知策略，如果设置了“周期指数递增”的重复策略，当某个统计周期为 5 分钟的告警触发后，那么用户将会在下列哪些数据段收到告警信息？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 301,
+		"feedback": "周期指数递增,既然是指数,那就是2的倍数",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1201,
+			"title": " 10 分钟",
+			"param": "[]"
+		}, {
+			"oid": 1202,
+			"title": " 20 分钟",
+			"param": "[]"
+		}, {
+			"oid": 1203,
+			"title": " 30 分钟",
+			"param": "[]"
+		}, {
+			"oid": 1204,
+			"title": " 40 分钟",
+			"param": "[]"
+		}],
+		"rightoids": [1201, 1204, 1202]
+	}, {
+		"title": "腾讯云数据库 SQL Server，采用高 IO 机型作为基础硬件，采用双机高可用架构，并包含微软正版许可，收费模式为包年包月（预付费），其中包含以下哪几项费用？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 302,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1205,
+			"title": " CPU 费用",
+			"param": "[]"
+		}, {
+			"oid": 1206,
+			"title": " 内存费用",
+			"param": "[]"
+		}, {
+			"oid": 1207,
+			"title": " 网络费用",
+			"param": "[]"
+		}, {
+			"oid": 1208,
+			"title": " 存储费用",
+			"param": "[]"
+		}],
+		"rightoids": [1206, 1208]
+	}, {
+		"title": "以下哪些描述属于分布式服务框架的使用场景?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 303,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1209,
+			"title": " 构建分布式服务系统",
+			"param": "[]"
+		}, {
+			"oid": 1210,
+			"title": " 应用发布和管理",
+			"param": "[]"
+		}, {
+			"oid": 1211,
+			"title": " 数据化运营",
+			"param": "[]"
+		}, {
+			"oid": 1212,
+			"title": " 服务管理",
+			"param": "[]"
+		}],
+		"rightoids": [1209, 1210, 1211, 1212]
+	}, {
+		"title": "以下关于无服务器云函数的适用场景描述中，哪些项的描述是正确的？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 304,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1213,
+			"title": " 文件处理及通知",
+			"param": "[]"
+		}, {
+			"oid": 1214,
+			"title": " 消息转存",
+			"param": "[]"
+		}, {
+			"oid": 1215,
+			"title": " 业务流转",
+			"param": "[]"
+		}, {
+			"oid": 1216,
+			"title": " AI 推理",
+			"param": "[]"
+		}],
+		"rightoids": [1213, 1214, 1215, 1216]
+	}, {
+		"title": "小明打算将业务由本地机房迁移至云上，他在北京和上海都部署了服务器，两个地域之间使用了对等连接来实现大内网，并且在北京地域将业务部署在两个可用区中，在上海也部署了一个可用区来实现容灾能力,每个地域最外层都部署了负载均衡，在云解析中，将域名解析到了两个负载均衡地址上来实现业务流量入口, 以下关于小明的方案设计描述,正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 305,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1217,
+			"title": " 在北京和上海同时部署了业务,可以规避一个地域业务失败带来的业务停滞风险",
+			"param": "[]"
+		}, {
+			"oid": 1218,
+			"title": " 两个地域之间采用对等连接通信可以保证传输速率和质量",
+			"param": "[]"
+		}, {
+			"oid": 1219,
+			"title": " 每个地域部署负载均衡可以收敛访问 IP,实现高可用",
+			"param": "[]"
+		}, {
+			"oid": 1220,
+			"title": " 使用云解析后将会导致用户访问变得复杂，用户体验变差",
+			"param": "[]"
+		}],
+		"rightoids": [1217, 1218, 1219]
+	}, {
+		"title": "以下关于负载均衡的典型业务流程描述中，正确的有哪些项？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 306,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1221,
+			"title": " 用户发起请求到 VIP",
+			"param": "[]"
+		}, {
+			"oid": 1222,
+			"title": " 监听器接收到流量",
+			"param": "[]"
+		}, {
+			"oid": 1223,
+			"title": " 执行流量分发策略",
+			"param": "[]"
+		}, {
+			"oid": 1224,
+			"title": " 后端服务器响应",
+			"param": "[]"
+		}],
+		"rightoids": [1221, 1222, 1223, 1224]
+	}, {
+		"title": "小明在云上设计了一个架构图：把服务器中的所有非结构化的数据都放入到了对象存储中，结构化的数据放入 CDB 中，针对用户要访问的高频数据，放入到 Redis 中，以下关于小明的这个设计描述，正确的有哪些项？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 307,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1225,
+			"title": " 把非结构化的数据从服务器硬盘中剥离出来可以提升性能，也解决了容量瓶颈",
+			"param": "[]"
+		}, {
+			"oid": 1226,
+			"title": " 结构化数据放入 CDB 产品，解决了自建数据库的可用性和可靠性比较差的问题",
+			"param": "[]"
+		}, {
+			"oid": 1227,
+			"title": " 对用户频繁访问的数据放入 Redis 中，可以大大缓解后端 CDB 数据库的压力",
+			"param": "[]"
+		}, {
+			"oid": 1228,
+			"title": " 全部使用标准的云组件可以大大减轻运维难度",
+			"param": "[]"
+		}],
+		"rightoids": [1225, 1226, 1227, 1228]
+	}, {
+		"title": "针对您在腾讯云上部署的不具备公网带宽和公网 IP 的服务器而言，应该采用以下哪几款产品使其安全的上网，以便实现打补丁等操作？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 308,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1229,
+			"title": " 公网网关",
+			"param": "[]"
+		}, {
+			"oid": 1230,
+			"title": " 负载均衡",
+			"param": "[]"
+		}, {
+			"oid": 1231,
+			"title": " NAT 网关",
+			"param": "[]"
+		}, {
+			"oid": 1232,
+			"title": " 弹性网卡",
+			"param": "[]"
+		}],
+		"rightoids": [1229, 1231]
+	}, {
+		"title": "当我们在做架构设计时，应充分考虑业务层面的安全性，如果没有做好业务安全，可能将会造成刷号、刷优惠、账号批量注册、大量领取优惠券等，造成大量损失，以下属于腾讯云业务安全产品主要功能的，有哪些项？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 309,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1233,
+			"title": " 人脸识别",
+			"param": "[]"
+		}, {
+			"oid": 1234,
+			"title": " 活动防刷",
+			"param": "[]"
+		}, {
+			"oid": 1235,
+			"title": " 金融反欺诈",
+			"param": "[]"
+		}, {
+			"oid": 1236,
+			"title": " 防撞号登录",
+			"param": "[]"
+		}],
+		"rightoids": [1233, 1234, 1235, 1236]
+	}, {
+		"title": "关于腾讯云负载均衡产品，以下描述错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 310,
+		"feedback": "传统型负载均衡配置简单,支持简单的负载均衡场景:传统型公网负载均衡:支持TCP/UDP/HTTP/HTTPS协议。传统型内网负载均衡:支持TCP/UDP协议。不支持七层转发https://cloud.tencent.com/document/product/214/38017",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1237,
+			"title": " 应用型负载均衡，支持公网的四层和七层转发",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1238,
+			"title": " 应用型负载均衡，支持内网的四层和七层转发",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1239,
+			"title": " 传统型负载均衡，支持公网的四层和七层转发",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1240,
+			"title": " 传统型负载均衡，支持内网的四层和七层转发",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1240]
+	}, {
+		"title": "以下关于腾讯云 CDN 计费中的按请求数计费说法中，正确的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 311,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1241,
+			"title": " 按请求数计费的标准的最小单位是 10 万次",
+			"param": "[]"
+		}, {
+			"oid": 1242,
+			"title": " 按请求数计费的标准的最小单位是 100 万次",
+			"param": "[]"
+		}, {
+			"oid": 1243,
+			"title": " 按请求数计费的标准的最小单位是 1000 万次 ",
+			"param": "[]"
+		}, {
+			"oid": 1244,
+			"title": " CDN 不支持按照请求次数计费",
+			"param": "[]"
+		}],
+		"rightoids": [1244]
+	}, {
+		"title": "以下关于腾讯云中不同租户间的网络描述中，正确的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 312,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1245,
+			"title": " 不同租户之间可以设置相同的私网 IP 地址",
+			"param": "[]"
+		}, {
+			"oid": 1246,
+			"title": " 不同租户之间可以使用同一个 VPC",
+			"param": "[]"
+		}, {
+			"oid": 1247,
+			"title": " 不同租户间网络默认可以互相通信",
+			"param": "[]"
+		}, {
+			"oid": 1248,
+			"title": " 不同租户间无论通过何种手段均无法通信",
+			"param": "[]"
+		}],
+		"rightoids": [1245]
+	}, {
+		"title": "部分企业一方面想利用公有云的按需购买、弹性伸缩、快速部署、快速访问等特点，另一方面又希望将部分对内的应用本地部署，提供给员工访问，同时实现本地机房与腾讯云私有网络 VPC 间的安全连接，为了最大程度节省成本，以下哪项最能满足客户需求？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 313,
+		"feedback": "对等连接能使VPC两两建立互联,按照所提的需求,还是得选VPN连接",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1249,
+			"title": " 专线接入 DC",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1250,
+			"title": " VPN 连接",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1251,
+			"title": " 对等网络",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1252,
+			"title": " 跨地域互联 CRC",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1250]
+	}, {
+		"title": "假设某域名配置了如下缓存配置： 所有文件 30 天 .asp .php .html 100 秒 .jpg .png .gif 200 秒 /test/*.jpg 300 秒 /test/test.jpg 400 秒 假设域名为www.example.com，资源为 www.example.com/test/abc.jpg，那么该内容最终缓存时间应该是（ ）？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 314,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1253,
+			"title": " 100 秒",
+			"param": "[]"
+		}, {
+			"oid": 1254,
+			"title": " 200 秒",
+			"param": "[]"
+		}, {
+			"oid": 1255,
+			"title": " 300 秒",
+			"param": "[]"
+		}, {
+			"oid": 1256,
+			"title": " 400 秒",
+			"param": "[]"
+		}],
+		"rightoids": [1255]
+	}, {
+		"title": "您发现通过 CDN 加速后，用户打开您的网站显示的都是过期信息，可能是以下哪种原因导致的？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 315,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1257,
+			"title": " CDN 节点中了病毒",
+			"param": "[]"
+		}, {
+			"oid": 1258,
+			"title": " 客户端本地 Hosts 文件错误",
+			"param": "[]"
+		}, {
+			"oid": 1259,
+			"title": " 源站配置不正确",
+			"param": "[]"
+		}, {
+			"oid": 1260,
+			"title": " 缓存过期时间过长",
+			"param": "[]"
+		}],
+		"rightoids": [1260]
+	}, {
+		"title": "CDB For MySQL 中的最大连接数最大可以修改为以下哪个值？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 316,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1261,
+			"title": " 实例内存的 1/5",
+			"param": "[]"
+		}, {
+			"oid": 1262,
+			"title": " 1000",
+			"param": "[]"
+		}, {
+			"oid": 1263,
+			"title": " 5000",
+			"param": "[]"
+		}, {
+			"oid": 1264,
+			"title": " 10000",
+			"param": "[]"
+		}],
+		"rightoids": [1264]
+	}, {
+		"title": "腾讯云中的COS支持以下哪个API接口？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 317,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1265,
+			"title": " COS支持标准的Restful API接口",
+			"param": "[]"
+		}, {
+			"oid": 1266,
+			"title": " COS支持标准的CIFS API接口",
+			"param": "[]"
+		}, {
+			"oid": 1267,
+			"title": " COS支持标准的NFS API接口",
+			"param": "[]"
+		}, {
+			"oid": 1268,
+			"title": " COS支持标准的GFS API接口",
+			"param": "[]"
+		}],
+		"rightoids": [1265]
+	}, {
+		"title": "腾讯云中，视频处理产品下的视频文件名是乱码，可能是以下哪个原因造成的？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 318,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1269,
+			"title": " 视频名称超过了10个字符，所以造成了乱码",
+			"param": "[]"
+		}, {
+			"oid": 1270,
+			"title": " 视频内容出现了验证的错误，乱码是提示信息",
+			"param": "[]"
+		}, {
+			"oid": 1271,
+			"title": " 视频内容违规，乱码是警示",
+			"param": "[]"
+		}, {
+			"oid": 1272,
+			"title": " COS的文件名不是utf8 编码",
+			"param": "[]"
+		}],
+		"rightoids": [1272]
+	}, {
+		"title": "腾讯云大禹产品中的 CC 防护，当您选择开启或者修改 CC 防护的配置后，需要等待多久后生效？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 319,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1273,
+			"title": " 实时生效",
+			"param": "[]"
+		}, {
+			"oid": 1274,
+			"title": " 10分钟内",
+			"param": "[]"
+		}, {
+			"oid": 1275,
+			"title": " 30分钟内",
+			"param": "[]"
+		}, {
+			"oid": 1276,
+			"title": " 1小时内",
+			"param": "[]"
+		}],
+		"rightoids": [1273]
+	}, {
+		"title": "您希望监控您的网站在全国整体的可用性概况，可用性低于90%时快速的通知到管理员，以上需求可以通过腾讯云哪项服务实现？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 320,
+		"feedback": "云拨测(Cloud Automated Testing; CAT)利用分布于全球的服务质量监测点，对您的网站、域名、后台接口等进行周期性监控，您可通过查看可用率和延时随时间区间变化来帮助分析站点质量情况。云拨测对可用率指标提供自定义阈值告警功能;您可以通过配置告警实现异常实时通知。可视化性能数据和告警通知可帮助您及时对业务质量作出反应，保证业务稳定正常运行。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1277,
+			"title": " CDN可用性监控",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1278,
+			"title": " 云监控",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1279,
+			"title": " 网站WAF",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1280,
+			"title": "云拨测",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1280]
+	}, {
+		"title": "腾讯云对象存储的存储桶具有防盗链功能，用户开启防盗链设置后，如果遭遇黑客直接DDoS攻击对象链接，产生的流量费用如何收取？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 321,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1281,
+			"title": " 不产生额外的流量费用",
+			"param": "[]"
+		}, {
+			"oid": 1282,
+			"title": " 产生额外的流量费用，但是以用户月均流量的200%为上限封顶",
+			"param": "[]"
+		}, {
+			"oid": 1283,
+			"title": " 产生额外的流量费用，但是以用户月均流量的500%为上限封顶",
+			"param": "[]"
+		}, {
+			"oid": 1284,
+			"title": " 产生额外的流量费用，以实际发生为准，上不封顶 ",
+			"param": "[]"
+		}],
+		"rightoids": [1281]
+	}, {
+		"title": "以下关于不同租户间网络描述中，正确的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 322,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1285,
+			"title": " 在腾讯云中，不同租户之间可以设置冲突的IP地址",
+			"param": "[]"
+		}, {
+			"oid": 1286,
+			"title": " 在腾讯云中，不同租户之间可以使用相同的VPC ",
+			"param": "[]"
+		}, {
+			"oid": 1287,
+			"title": " 不同租户间网络默认可以互相通信",
+			"param": "[]"
+		}, {
+			"oid": 1288,
+			"title": " 不同租户间无法通信",
+			"param": "[]"
+		}],
+		"rightoids": [1285]
+	}, {
+		"title": "云硬盘采用几个副本来保证数据的可靠性？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 323,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1289,
+			"title": " 云硬盘采用1个高性能的副本来保证数据的可靠性",
+			"param": "[]"
+		}, {
+			"oid": 1290,
+			"title": " 云硬盘采用2个高性能的副本来保证数据的可靠性",
+			"param": "[]"
+		}, {
+			"oid": 1291,
+			"title": " 云硬盘采用3个高性能的副本来保证数据的可靠性",
+			"param": "[]"
+		}, {
+			"oid": 1292,
+			"title": " 云硬盘采用4个高性能的副本来保证数据的可靠性",
+			"param": "[]"
+		}],
+		"rightoids": [1291]
+	}, {
+		"title": "关于腾讯云专用宿主机与黑石物理服务器，以下对于二者区别的描述，不正确的是（ ）",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 324,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1293,
+			"title": " 黑石物理服务器产权归腾讯云所有，专用宿主机产权归客户所有。",
+			"param": "[]"
+		}, {
+			"oid": 1294,
+			"title": " 黑石物理服务器提供的是可以按需购买、按量付费的物理服务器租赁服务。",
+			"param": "[]"
+		}, {
+			"oid": 1295,
+			"title": " 黑石物理服务器同样支持内网互联、私有网络、负载均衡、NAT网关、运维、监控、安全防护等能力。",
+			"param": "[]"
+		}, {
+			"oid": 1296,
+			"title": " 专用宿主机是提供以独享宿主机资源的方式购买、创建云主机的服务。",
+			"param": "[]"
+		}],
+		"rightoids": [1293]
+	}, {
+		"title": "关于架构的优化，下列说法错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 325,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1297,
+			"title": " 从需求出发整体分析，不能头痛医头 ，脚痛医脚",
+			"param": "[]"
+		}, {
+			"oid": 1298,
+			"title": " 设定关键点，架构的优化不是一蹴而就的",
+			"param": "[]"
+		}, {
+			"oid": 1299,
+			"title": " 设定架构优化的目标，提供冗余备份方案",
+			"param": "[]"
+		}, {
+			"oid": 1300,
+			"title": " 遵循架构设计原则",
+			"param": "[]"
+		}],
+		"rightoids": [1299]
+	}, {
+		"title": "您在北京部署了一个业务网站，已经在使用 CDN 服务，但是经常遭到其他城市的用户投诉动态内容访问太慢，此时您可以选择在架构中加入以下哪项产品来解决用户投诉？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 326,
+		"feedback": "动态加速网络DSA(老题)新题动态加速网络用全站加速网络ECDNDSA产品可以智能选择最优网络路径,通过腾讯云加速节点进行传输动态内容加速用户体验",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1301,
+			"title": " CLB",
+			"param": "[]"
+		}, {
+			"oid": 1302,
+			"title": " DSA",
+			"param": "[]"
+		}, {
+			"oid": 1303,
+			"title": " TKE",
+			"param": "[]"
+		}, {
+			"oid": 1304,
+			"title": " COS",
+			"param": "[]"
+		}],
+		"rightoids": [1302]
+	}, {
+		"title": "以下关于解耦架构的概念与紧耦合的概念描述中，正确的有哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 327,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1305,
+			"title": " 当耦合度越高，系统的灵活性就越差，应该降低系统的耦合度，提升系统的灵活性，这样就可以缩小故障范围，也提升了模块和系统的扩展性",
+			"param": "[]"
+		}, {
+			"oid": 1306,
+			"title": " 当耦合度越高，系统的灵活性就越差，但是对扩展性的提升明显",
+			"param": "[]"
+		}, {
+			"oid": 1307,
+			"title": " 解耦合架构需要使用弹性伸缩产品结合 CVM 实现横向扩展来解决系统的扩展性",
+			"param": "[]"
+		}, {
+			"oid": 1308,
+			"title": " 紧耦合架构可以降低变更成本，而解耦合的架构每次变更都会牵一发而动全身，变更成本太高",
+			"param": "[]"
+		}],
+		"rightoids": [1305]
+	}, {
+		"title": "以下关于腾讯云上弹性伸缩产品中的定时伸缩策略描述中，正确的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 328,
+		"feedback": "定时伸缩策略:到达某个固定时间点,自动增加或减少CVM实例,支持周期性重复",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1309,
+			"title": " 定时伸缩的策略只能用来伸缩有状态的服务",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1310,
+			"title": " 定时伸缩的策略是根据服务器上的负载情况来动态伸缩资源规模的策略",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1311,
+			"title": " 定时伸缩策略是否工作完全取决于时间点是否到达，和服务器压力无关",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1312,
+			"title": " 如果伸缩组所需的资源不存在，定时伸缩策略依旧能够成功完成",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1311]
+	}, {
+		"title": "您目前运维的网站需要实时面临百万级并发，后端的 MySQL 数据库需要处理大量高频数据和高访问负载，此时您可以选择在架构中加入以下哪项数据库产品来缓解后端压力？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 329,
+		"feedback": "题干描述的场景是TDSQL的大型应用（超高并发实时交易场景）。电商、金融、O2O、社交应用、零售、SaaS 服务提供商，普遍存在用户基数大（百万级或以上）、营销活动频繁、核心交易系统数据库响应日益变慢的问题，制约业务发展。\r\nTDSQL 提供线性水平扩展能力，能够实时提升数据库处理能力，提高访问效率，峰值 QPS 达1500万+，轻松应对高并发的实时交易场景。微信支付、财付通、腾讯充值等都是使用的 TDSQL 架构的数据库。详见https://cloud.tencent.com/document/product/557/8763",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1313,
+			"title": " Redis",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1314,
+			"title": " TDSQL",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1315,
+			"title": " MongoDB",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1316,
+			"title": " MySQL",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1314]
+	}, {
+		"title": "弹性网卡是绑定私有网络内云服务器的一种弹性网络接口，可以将云主机绑定弹性网卡接入网络。下列关于弹性网卡说法错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 330,
+		"feedback": "弹性网卡是绑定私有网络内云服务器的一种弹性网络接口，可在多个云服务器间自由迁移。您可以在云服务器上绑定同一可用区下的多个弹性网卡，实现高可用网络方案；",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1317,
+			"title": " 一台云服务器可以绑定多个弹性网卡",
+			"param": "[]"
+		}, {
+			"oid": 1318,
+			"title": " 弹性网卡对配置管理网络与搭建高可靠网络方案有较大帮助",
+			"param": "[]"
+		}, {
+			"oid": 1319,
+			"title": " 弹性网卡可以绑定不同可用区下的云服务器",
+			"param": "[]"
+		}, {
+			"oid": 1320,
+			"title": " 弹性网卡可以在相同可用区下的多个云主机间自由迁移",
+			"param": "[]"
+		}],
+		"rightoids": [1319]
+	}, {
+		"title": "当前您打算在腾讯云上同一个 VPC 中部署一个公网网关和一个不带有公网带宽的普通CVM，在规划上，公网网关具备公网带宽和 IP 地址，其所在子网使用了平台提供的默认路由表，普通 CVM 需要通过公网网关访问互联网，那么普通 CVM 所在子网（与公网网关不在同一子网）应该使用以下哪种路由表类型？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 331,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1321,
+			"title": " 自定义的路由表",
+			"param": "[]"
+		}, {
+			"oid": 1322,
+			"title": " 默认路由表",
+			"param": "[]"
+		}, {
+			"oid": 1323,
+			"title": " 弹性网卡路由表",
+			"param": "[]"
+		}, {
+			"oid": 1324,
+			"title": " 弹性 IP 路由表",
+			"param": "[]"
+		}],
+		"rightoids": [1321]
+	}, {
+		"title": "您所在的公司约为 8 万人，企业年营业额约为 200 亿，企业的业务服务于全球用户，您打算将本地机房中的所有业务全放到腾讯云上提供服务，第一步您需要在腾讯云上规划 VPC，以下关于 VPC 划分的描述中，描述错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 332,
+		"feedback": "因为公司规模大,且业务服务于全球,就在一个地域部署一个VPC,不大合理,应该在多地域部署VPC,—方面就近接入,另一方面采用对等连接连接不同地域的VPC实现高可用。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1325,
+			"title": " 根据业务规划，在不同的城市至少创建一个 VPC 来承载当地业务",
+			"param": "[]"
+		}, {
+			"oid": 1326,
+			"title": " 由于业务的重要性，可以在多地域部署多个 VPC 来满足系统的容灾特性",
+			"param": "[]"
+		}, {
+			"oid": 1327,
+			"title": " 在一个地域部署一个 VPC，并通过多个子网来满足高可用性",
+			"param": "[]"
+		}, {
+			"oid": 1328,
+			"title": " 如果业务上有隔离的需要，可以在北京地域多规划几个 VPC 用于需要隔离的业务",
+			"param": "[]"
+		}],
+		"rightoids": [1327]
+	}, {
+		"title": "以下关于腾讯云上可选的云服务器类型描述中，错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 333,
+		"feedback": "CDH提供给用户独享，但不是用户自有服务器",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1329,
+			"title": " 云服务器 CVM：弹性可伸缩的计算服务",
+			"param": "[]"
+		}, {
+			"oid": 1330,
+			"title": " GPU 云服务器：基于 GPU 应用的计算服务",
+			"param": "[]"
+		}, {
+			"oid": 1331,
+			"title": " 专用宿主机 CDH：资源独享的用户自有服务器",
+			"param": "[]"
+		}, {
+			"oid": 1332,
+			"title": " 黑石服务器 CPM：专用的高性能、安全隔离的物理集群",
+			"param": "[]"
+		}],
+		"rightoids": [1331]
+	}, {
+		"title": "扩展性是指对系统影响最小的情况下，系统功能可持续扩展或能力提升，实现扩展性后每次系统变更的影响范围将大大缩小，以下各产品的描述中，哪项云产品和云架构的扩展性关联不大？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 334,
+		"feedback": "弹性MapReduce(EMR)结合云技术和Hadoop、Hive、 Spark、 Hbase、 Presto、 Flink 、Druid、ClickHouse 等社区开源技术提供安全、低成本、高可靠、可弹性伸缩的云端半托管泛Hadoop大数据架构。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1333,
+			"title": " CLB",
+			"param": "[]"
+		}, {
+			"oid": 1334,
+			"title": " TKE",
+			"param": "[]"
+		}, {
+			"oid": 1335,
+			"title": " TSF",
+			"param": "[]"
+		}, {
+			"oid": 1336,
+			"title": " EMR",
+			"param": "[]"
+		}],
+		"rightoids": [1336]
+	}, {
+		"title": "当我们在做架构设计时，要充分考虑安全性，如果没有做好服务器安全，可能将会遭受病毒木马攻击、暴力破解密码、漏洞攻击等风险，以下哪项保护措施不属于主机安全范畴？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 335,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1337,
+			"title": " 制定合理的补丁更新策略",
+			"param": "[]"
+		}, {
+			"oid": 1338,
+			"title": " 关闭高危端口",
+			"param": "[]"
+		}, {
+			"oid": 1339,
+			"title": " 流量清洗",
+			"param": "[]"
+		}, {
+			"oid": 1340,
+			"title": " 安装安全软件",
+			"param": "[]"
+		}],
+		"rightoids": [1339]
+	}, {
+		"title": "高可用性在互联网业务里面，一般指平均能够正常的为用户提供服务的概率，概率具体的算法为：MTTF/(MTTF+MTTR) * 100%，以下关于业务的高可用性要解决的问题描述中，错误的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 336,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1341,
+			"title": " 高可用性要解决企业业务频繁宕机的问题",
+			"param": "[]"
+		}, {
+			"oid": 1342,
+			"title": " 高可用性解决了服务宕机时，用户的感知问题，有了高可用性后，服务宕机时，可以立刻自动切换，提升用户访问的持续性",
+			"param": "[]"
+		}, {
+			"oid": 1343,
+			"title": " 高可用性要解决服务长时间宕机给企业带来巨大损失的问题",
+			"param": "[]"
+		}, {
+			"oid": 1344,
+			"title": " 高可用性主要是解决高流量大并发时的业务访问延迟的问题",
+			"param": "[]"
+		}],
+		"rightoids": [1344]
+	}, {
+		"title": "对象存储是面向企业和个人开发者提供的高可用，高稳定，强安全的云端存储服务。您可以将任意数量和形式的非结构化数据放入COS,并在其中实现数据的管理和处理。对象存储COS应用场景广泛，下列哪些场景属于适合COS的应用场景( )",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 337,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1345,
+			"title": " 网站静态资源存储",
+			"param": "[]"
+		}, {
+			"oid": 1346,
+			"title": " 结构化数据存储",
+			"param": "[]"
+		}, {
+			"oid": 1347,
+			"title": " 游戏、影视资源存储",
+			"param": "[]"
+		}, {
+			"oid": 1348,
+			"title": " 企业网盘文件存储",
+			"param": "[]"
+		}],
+		"rightoids": [1345, 1347, 1348]
+	}, {
+		"title": "如果小明请您作为架构咨询顾问来进行架构优化，以下哪些项属于您应该完成的调研内容?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 338,
+		"feedback": "调研应当包括:业务架构、应用架构、基础架构、使用人的描述",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1349,
+			"title": " 业务架构",
+			"param": "[]"
+		}, {
+			"oid": 1350,
+			"title": " 应用架构",
+			"param": "[]"
+		}, {
+			"oid": 1351,
+			"title": " 基础架构",
+			"param": "[]"
+		}, {
+			"oid": 1352,
+			"title": " 小明的描述",
+			"param": "[]"
+		}],
+		"rightoids": [1349, 1350, 1351, 1352]
+	}, {
+		"title": "下列选项中，属于Anycast公网加速特性的有( )?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 339,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1353,
+			"title": "  多地域同服",
+			"param": "[]"
+		}, {
+			"oid": 1354,
+			"title": " 多地域加速",
+			"param": "[]"
+		}, {
+			"oid": 1355,
+			"title": " 躲避拥堵",
+			"param": "[]"
+		}, {
+			"oid": 1356,
+			"title": " 屏蔽故障",
+			"param": "[]"
+		}],
+		"rightoids": [1353, 1354, 1355, 1356]
+	}, {
+		"title": "某游戏公司将其某款游戏业务运行在腾讯云平台，游戏业务的积分排行榜等非角色需要频繁数据的访问和更新。目前的方案是直接从数据库提取数据，可能会带来极大的效率损耗和系统的负载。该公司应该使用下列哪些方法来解决当前困惑?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 340,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1357,
+			"title": " 通过腾讯云Memcached来缓存静态数据减小数据库负载。",
+			"param": "[]"
+		}, {
+			"oid": 1358,
+			"title": " 存储在Redis中进行快速访问。",
+			"param": "[]"
+		}, {
+			"oid": 1359,
+			"title": " 使用腾讯云Memcached将这类数据全部缓存下来。",
+			"param": "[]"
+		}, {
+			"oid": 1360,
+			"title": " 使用Redis原生自带的SortedSet数据类型，可以帮助该公司开发玩家数据。",
+			"param": "[]"
+		}],
+		"rightoids": [1358, 1360]
+	}, {
+		"title": "腾讯云上有多款产品可以配合解耦架构一起工作，以下哪些项中提到的产品可以用来实现解耦架构?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 341,
+		"feedback": "负载均衡、容器、消息队列、无服务器函数全部支持解耦架构",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1361,
+			"title": " 负载均衡",
+			"param": "[]"
+		}, {
+			"oid": 1362,
+			"title": " 容器",
+			"param": "[]"
+		}, {
+			"oid": 1363,
+			"title": " 消息队列",
+			"param": "[]"
+		}, {
+			"oid": 1364,
+			"title": " 无服务器函数",
+			"param": "[]"
+		}],
+		"rightoids": [1361, 1362, 1363, 1364]
+	}, {
+		"title": "下列哪些事件可以触发SCF无服务器函数?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 342,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1365,
+			"title": " 手动触发(API)",
+			"param": "[]"
+		}, {
+			"oid": 1366,
+			"title": " 定时触发",
+			"param": "[]"
+		}, {
+			"oid": 1367,
+			"title": " COS触发",
+			"param": "[]"
+		}, {
+			"oid": 1368,
+			"title": " CMQ触发",
+			"param": "[]"
+		}],
+		"rightoids": [1365, 1366, 1367, 1368]
+	}, {
+		"title": "源地址散列调度算法ip_ hash是腾讯云的一种负载均衡算法，它的优势有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 343,
+		"feedback": "选项C是加权轮询的优势",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1369,
+			"title": " 可以实现部分会话保持的效果，能够记住源IP",
+			"param": "[]"
+		}, {
+			"oid": 1370,
+			"title": " 使某一client请求通过hash表一直映射在同一台rs上",
+			"param": "[]"
+		}, {
+			"oid": 1371,
+			"title": " 常用于短连接服务，短连接适用于网页;浏览等数据刷新频度较低的场景",
+			"param": "[]"
+		}, {
+			"oid": 1372,
+			"title": "  在不支持会话保持的场景可以使用ip_ hash进行简单的会话保持实现",
+			"param": "[]"
+		}],
+		"rightoids": [1369, 1370, 1372]
+	}, {
+		"title": "小明在一家互联网消费银行供职，经过集团决定，将业务迁往腾讯云上，小明在云上的流量入也同时部署了负载均衡产品并下挂了不同可用区的服务器，后端数据库采用强同步和强一致性的方式来实现数据的复制，并在异地部署了两个灾备中心，以下关于小明的设计描述中，正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 344,
+		"feedback": "1.在流量入口部署大禹、天御可以有效的防止网络攻击和欺诈的发生，2、负载均衡同时挂载多个可用区的服务器消除了单点故障，3、数据库采用强一致性的方式可以确保数据的安全性和完整性，4、部署了异地数据中心，提升了系统的灾备能力",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1373,
+			"title": " 在流量入口部署大禹、天御可以有效的防止网络攻击和欺诈的发生",
+			"param": "[]"
+		}, {
+			"oid": 1374,
+			"title": " 负载均衡同时挂载多个可用区的服务器消除了单点故障",
+			"param": "[]"
+		}, {
+			"oid": 1375,
+			"title": " 数据库采用强一致性的方式可以确保数据的安全性和完整性",
+			"param": "[]"
+		}, {
+			"oid": 1376,
+			"title": " 部署了异地数据中心，提升了系统的灾备能力",
+			"param": "[]"
+		}],
+		"rightoids": [1373, 1374, 1375, 1376]
+	}, {
+		"title": "小明在腾讯云上做了一个服务器集群，在流量入口处部署了一个CLB实例，在CLB实例下挂载了北京一区、二区两个可用区的没有公网IP和带宽的服务器，并且在架构中加入了NAT网关用于服务器的主动互联网访问需求，并在广州地域规划了一个VPC以及多个子网用于部署上述架构的灾备站点，以下关于小明的方案设计的描述中，哪些描述是正确的?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 345,
+		"feedback": "1.在流量入口部署CLB可以提升业务的性能和并发的承载能力，2、CLB下挂载了两个可用区的机器，降低了单个可用区故障带来的影响，3、 使用NAT来提供服务器主动访问互联网的接口大大降低了服务器直面互联网的风险",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1377,
+			"title": " 在流量入口部署CLB可以提升业务 的性能和并发的承载能力",
+			"param": "[]"
+		}, {
+			"oid": 1378,
+			"title": " CLB下挂载了两个可用区的机器， 降低了单个可用区故障带来的影响",
+			"param": "[]"
+		}, {
+			"oid": 1379,
+			"title": " 使用NAT来提供服务器主动访问互联网的接口大大降低了服务器直面互联网的风险",
+			"param": "[]"
+		}, {
+			"oid": 1380,
+			"title": " 在广州部署一个站点并不能带来灾备能力的提升，因为距离太远，无法形成一个云内的内网环境",
+			"param": "[]"
+		}],
+		"rightoids": [1377, 1378, 1379]
+	}, {
+		"title": "针对您在腾讯云上部署的不具备公网带宽和公网IP的服务器而言，应该采用以下哪几款产品使其安全的上网，以便实现打补丁等操作?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 346,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1381,
+			"title": " 公网网关",
+			"param": "[]"
+		}, {
+			"oid": 1382,
+			"title": " 负载均衡",
+			"param": "[]"
+		}, {
+			"oid": 1383,
+			"title": " NAT网关",
+			"param": "[]"
+		}, {
+			"oid": 1384,
+			"title": "  弹性网卡",
+			"param": "[]"
+		}],
+		"rightoids": [1381, 1383]
+	}, {
+		"title": "在腾讯云上的私有网络产品中包含了多个私有IP地址段，以下哪些地址段可以用在私有网络中?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 347,
+		"feedback": "169.254.0.0/16不属于腾讯云可用的私有网络地址段，可用于腾讯VPC的地址段为:10.0.0.0-10.255.255.255(掩码范围16-28之间)，172.16.0.0-172.31.255.255 (掩码范围16-28之间)，192.168.0.0-192.168.255.255(掩码范围16-28之间)",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1385,
+			"title": " 10.0.0.0/16 ",
+			"param": "[]"
+		}, {
+			"oid": 1386,
+			"title": " 172.16.0.0/16",
+			"param": "[]"
+		}, {
+			"oid": 1387,
+			"title": " 192.168.0.0/16",
+			"param": "[]"
+		}, {
+			"oid": 1388,
+			"title": " 169.254.0.0/16 ",
+			"param": "[]"
+		}],
+		"rightoids": [1385, 1386, 1387]
+	}, {
+		"title": "您在腾讯云上有几台非常重要的CVM，您希望在CVM有主动.上网的需求时，可以避免CVM的公网IP因直接暴露在Internet而产生的网络安全隐患，您可以使用以下哪项网络产品实现此需求?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 348,
+		"feedback": "NAT网关可为CVM主动访问公网提供安全的地址转换，避免CVM的公网IP因直接暴露在Internet而产生的网络安全隐患",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1389,
+			"title": " NAT网关",
+			"param": "[]"
+		}, {
+			"oid": 1390,
+			"title": " 对等连接",
+			"param": "[]"
+		}, {
+			"oid": 1391,
+			"title": " 安全组",
+			"param": "[]"
+		}, {
+			"oid": 1392,
+			"title": " 网络ACL",
+			"param": "[]"
+		}],
+		"rightoids": [1389]
+	}, {
+		"title": "用户在使用腾讯云服务时，腾讯云上有多个地域供客户选择，以下关于地域的描述中，正确的有哪些?了解这些内容后，可以帮助我们更好的进行地域选择。",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 349,
+		"feedback": "B错误:尽量放在同一地域,除非是两地三中心。D错误；对等连接是云上资源互通服务，可以打通腾讯云上的资源通信链路。对等连接具有多区域、多账户、多种网络异构互通等特点，轻松实现云上两地三中心、游戏同服等复杂网络场景；",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1393,
+			"title": " 选择最靠近客户的地域",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1394,
+			"title": " 尽量将产品放置多个地域",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1395,
+			"title": " 同一个地域可以通过内网互通",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1396,
+			"title": " 不同地域只能通过外网互通",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1393, 1395]
+	}, {
+		"title": "在业务系统中，如果有某个环节存在单点设计,一旦唯一存在的服务宕机，整个业务系统将会面临无法访问，为了避免此类事情发生，以下哪些应对方式是正确的?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 350,
+		"feedback": "简单提高服务器配置或者网络带宽并没有带来冗余的概念，所以应该增加服务器台数服务器台数多了之后可以在前端使用负载均衡来统一访问入口，而腾讯云上的组件都提供了高可用性，无单点故障",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1397,
+			"title": " 增加服务器的台数",
+			"param": "[]"
+		}, {
+			"oid": 1398,
+			"title": " 将网络带宽加大",
+			"param": "[]"
+		}, {
+			"oid": 1399,
+			"title": " 在架构中加入负 载均衡，并挂载两台以上的服务器",
+			"param": "[]"
+		}, {
+			"oid": 1400,
+			"title": " 多使用标准的云组件而不是自建服务",
+			"param": "[]"
+		}],
+		"rightoids": [1397, 1399, 1400]
+	}, {
+		"title": "您打算在云上北京地域和自有机房之间做了一个电商类型的混合云架构，为了防止大量的DDOS攻击，你打算在云，上购买大禹的高防包和高防IP，同时防护云上的环境和自有机房，并在云上的主机中部署了云镜安全产品防止病毒木马的侵扰，经过认真考虑，您在业务层面打算采购天御业务安全系统防止羊毛党造成的损失，并在内网使用VPC以及网络ACL保障多重安全，私密的文件全部使用密钥管理服务、数据加密服务进行加密，并在不同岗位的人分配了符合岗位需求的最低权限防止误操作，以下关于此场景中所实现的安全性描述中，描述正确的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 351,
+		"feedback": "此场景同时考虑了网络、主机、业务、数据等多重维度的安全，在网络层面使用大禹系统的确可以同时防护不在云上的自有机房，只需要购买高防IP并配置即可",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1401,
+			"title": " 大禹这款产品提供的是云上的DDOS防护，无法防护不在云上的自有机房",
+			"param": "[]"
+		}, {
+			"oid": 1402,
+			"title": " 在业务层启用天御系统可以规避羊毛党攻击，降低营销损失",
+			"param": "[]"
+		}, {
+			"oid": 1403,
+			"title": " 为不同人员分配不同的权限这一点非常不错，可以降低误操作等带来的损失",
+			"param": "[]"
+		}, {
+			"oid": 1404,
+			"title": " 将敏感文件加密处理可以防止数据泄密",
+			"param": "[]"
+		}],
+		"rightoids": [1402, 1403, 1404]
+	}, {
+		"title": "当我们在做架构设计时，应充分考虑网络层面的安全性，如果没有做好网络安全，可能将会遭受DDOS攻击、XSS攻击等风险，以下属于腾讯云网络安全产品主要功能的，有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 352,
+		"feedback": "网络安全产品大禹主要提供的是DDOS防护功能，提供了高防包和高防I两个防护场景与形式",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1405,
+			"title": " 提供高防包功能用于防止DDOS攻击",
+			"param": "[]"
+		}, {
+			"oid": 1406,
+			"title": " 提供高防IP功能用于防止DDOS攻击",
+			"param": "[]"
+		}, {
+			"oid": 1407,
+			"title": " Webshell检测",
+			"param": "[]"
+		}, {
+			"oid": 1408,
+			"title": " 漏洞管理",
+			"param": "[]"
+		}],
+		"rightoids": [1405, 1406]
+	}, {
+		"title": "在腾讯云上可以提供以下哪些维度的安全防护?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 353,
+		"feedback": "腾讯云可以实现网络、主机、业务、网站等全维度的安全保障",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1409,
+			"title": " 网络",
+			"param": "[]"
+		}, {
+			"oid": 1410,
+			"title": " 主机",
+			"param": "[]"
+		}, {
+			"oid": 1411,
+			"title": " 业务",
+			"param": "[]"
+		}, {
+			"oid": 1412,
+			"title": " 网站",
+			"param": "[]"
+		}],
+		"rightoids": [1409, 1410, 1411, 1412]
+	}, {
+		"title": "腾讯云提供多种产品和服务满足企业不同架构设计需求，下列属于高性能架构设计要素的有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 354,
+		"feedback": "选项D是高可用的考虑因素，不是高性能的",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1413,
+			"title": " 应用性能:计算效率，包括代码的优化和服务器的提升",
+			"param": "[]"
+		}, {
+			"oid": 1414,
+			"title": " 网络性能: 数据传输效率,包括网络路径和网络带宽",
+			"param": "[]"
+		}, {
+			"oid": 1415,
+			"title": " 存储性能:数据读取写入的效率，可以从缓存数据库和CDN方面着手",
+			"param": "[]"
+		}, {
+			"oid": 1416,
+			"title": " 冗余设计:建立服务器群集，通过冗余的方式可以避免架构中出现单点故障",
+			"param": "[]"
+		}],
+		"rightoids": [1413, 1414, 1415]
+	}, {
+		"title": "下列关于业务系统高可用设计环节的描述中，正确的有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 355,
+		"feedback": "高可用设计不单单指的是服务器层面,在业业务的方方面面都应该注意避免单点故障与提升性能",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1417,
+			"title": " 高可用设计要充分考虑冗余设计",
+			"param": "[]"
+		}, {
+			"oid": 1418,
+			"title": " 高可用设计要充分考虑容错机制",
+			"param": "[]"
+		}, {
+			"oid": 1419,
+			"title": " 通过服务器层面的高可用设计，可以避免在业务的其他方面再考虑单点故障与性能提升",
+			"param": "[]"
+		}, {
+			"oid": 1420,
+			"title": " 在涉及业务的高可用性时，应该使业务具备相应的扩展性和伸缩性，确保业务在任何情况下，业务的可访问性",
+			"param": "[]"
+		}],
+		"rightoids": [1417, 1418, 1420]
+	}, {
+		"title": "云架构设计的目的是合理的选择和组合云产品，以满足业务需求的同时，提高系统的以下哪些方面的能力?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 356,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1421,
+			"title": " 可用性",
+			"param": "[]"
+		}, {
+			"oid": 1422,
+			"title": " 智能性",
+			"param": "[]"
+		}, {
+			"oid": 1423,
+			"title": " 可扩展性",
+			"param": "[]"
+		}, {
+			"oid": 1424,
+			"title": " 安全性",
+			"param": "[]"
+		}],
+		"rightoids": [1421, 1423, 1424]
+	}, {
+		"title": "关于以下腾讯云上的网络产品，哪些属于可以免费使用的范围?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 357,
+		"feedback": "ABCD都属于免费产品",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1425,
+			"title": " 弹性网卡",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1426,
+			"title": " 私有网络",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1427,
+			"title": " 子网",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1428,
+			"title": " 路由表",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1425, 1426, 1427, 1428]
+	}, {
+		"title": "以下关于行业云的描述中，描述错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 358,
+		"feedback": "行业云和其他的云计算模式相比，由于支持范围窄，需要专门为某个行业定制开发，所以建设成本比较高，以及需要有行业背景的人运营，运营成本也非常高",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1429,
+			"title": " 行业云和其他的云计算模式相比，更贴近行业需求",
+			"param": "[]"
+		}, {
+			"oid": 1430,
+			"title": " 行业云和其他的云计算模式相比，更方便用户",
+			"param": "[]"
+		}, {
+			"oid": 1431,
+			"title": " 金融行业的行业云相比公有云来说，更符合监管合规的要求",
+			"param": "[]"
+		}, {
+			"oid": 1432,
+			"title": " 行业云和其他的云计算模式相比，建设成本和持续运营成本都具有明显的性价比",
+			"param": "[]"
+		}],
+		"rightoids": [1432]
+	}, {
+		"title": "单台云主机最多可以挂载多少块弹性云硬盘?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 361,
+		"feedback": "[font=\"pingfang SC\", \"helvetica neue\", arial, \"hiragino sans gb\", \"microsoft yahei ui\", \"microsoft yahei\", simsun, sans-serif]弹性云硬盘（作为云服务器的数据盘使用）挂载到同一可用区中的任意云服务器上使用，每台云服务器最多支持挂载20个数据盘。详细链接[/font][url=https://cloud.tencent.com/document/product/362/5745]https://cloud.tencent.com/document/product/362/5745[/url]",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1441,
+			"title": " 5块",
+			"param": "[]"
+		}, {
+			"oid": 1442,
+			"title": " 10块",
+			"param": "[]"
+		}, {
+			"oid": 1443,
+			"title": " 15块",
+			"param": "[]"
+		}, {
+			"oid": 1444,
+			"title": " 20块",
+			"param": "[]"
+		}],
+		"rightoids": [1444]
+	}, {
+		"title": "腾讯云中，2049端口通常用于什么产品?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 362,
+		"feedback": "端口2049是NFS服务。说明: NFS程序常运行于这个端口",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1445,
+			"title": " 腾讯云文件存储",
+			"param": "[]"
+		}, {
+			"oid": 1446,
+			"title": " 腾讯云网络加速",
+			"param": "[]"
+		}, {
+			"oid": 1447,
+			"title": " 腾讯云数据同步",
+			"param": "[]"
+		}, {
+			"oid": 1448,
+			"title": " 腾讯云安全监控",
+			"param": "[]"
+		}],
+		"rightoids": [1445]
+	}, {
+		"title": "对象存储中的标准存储每月的免费额度有多少GB?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 363,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1449,
+			"title": " 20GB",
+			"param": "[]"
+		}, {
+			"oid": 1450,
+			"title": " 40GB",
+			"param": "[]"
+		}, {
+			"oid": 1451,
+			"title": " 50GB",
+			"param": "[]"
+		}, {
+			"oid": 1452,
+			"title": " 60GB",
+			"param": "[]"
+		}],
+		"rightoids": [1451]
+	}, {
+		"title": "日志服务(Cloud Log Service)提供一站式的日志数据解决方案。您无需关注扩缩容等资源问题，五分钟快速便捷接入，即可享受从日志采集、日志存储到日志内容搜索、统计分析等全方位稳定可靠的日志服务。帮助您轻松解决业务问题定位，指标监控、安全审计等日志问题。大大降低日志运维门槛。以下关于日志服务描述错误的是()?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 365,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1457,
+			"title": " 支持多冗余备份，提供不低于99.9999999%的数据持久性，与不低于99.9%的服务可靠性",
+			"param": "[]"
+		}, {
+			"oid": 1458,
+			"title": "  配置快速生效，秒级检索返回，支持从每日TB级日志数据采集存储需求",
+			"param": "[]"
+		}, {
+			"oid": 1459,
+			"title": " 按包年包月方式收费，价格低廉，最大程度降低您的运维成本",
+			"param": "[]"
+		}, {
+			"oid": 1460,
+			"title": " 功能丰富，提供日志采集、_存储、检索、分析、投递一站式整套的日志解决方案",
+			"param": "[]"
+		}],
+		"rightoids": [1459]
+	}, {
+		"title": "您在腾讯云.上创建了一个私有网络，但是购买服务器时，发现无法选中刚创建的私有网络，可能是以下哪项原因导致的?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 366,
+		"feedback": "服务器和私有网络不在同一个地域将导致此问题出现",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1461,
+			"title": " 服务器规格太低",
+			"param": "[]"
+		}, {
+			"oid": 1462,
+			"title": " 私有网络范围太小",
+			"param": "[]"
+		}, {
+			"oid": 1463,
+			"title": " 服务器和私有网络不在同一个地域",
+			"param": "[]"
+		}, {
+			"oid": 1464,
+			"title": " 安全组不允许ICMP通过导致的无法发现网络",
+			"param": "[]"
+		}],
+		"rightoids": [1463]
+	}, {
+		"title": "以下关于不合理的架构可能会出现的问题以及优化的描述中，正确的有哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 367,
+		"feedback": "成本过高可以采取弹性伸缩、CDN、无服务器云函数等产品来合理的降低成本，简单降低配置会损伤用户体验，大量预留资源解决业务中断问题不可取，违反了成本优化原则，运维困难可以通过自动化运维平台或工具解决",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1465,
+			"title": " 不合理的架构可能会导致访问延迟等性能不佳的问题，可以通过在架构中引入CDN、ECDN (原动态加速网络DSA)等技术来提升用户体验",
+			"param": "[]"
+		}, {
+			"oid": 1466,
+			"title": " 不合理的架构可能会导致成本过高的问题，可以通过降低服务器配置来解决此问题",
+			"param": "[]"
+		}, {
+			"oid": 1467,
+			"title": " 不合理的架构可能会导致业务中断的问题，可以通过大量预留资源的方式来解决此问题",
+			"param": "[]"
+		}, {
+			"oid": 1468,
+			"title": " 不合理的架构可能会导致运维困难的问题，可以招聘各方向技术专家解决此问题",
+			"param": "[]"
+		}],
+		"rightoids": [1465]
+	}, {
+		"title": "您目前在腾讯云的北京地域部署了一个视频内容的网站，已经将服务器带宽开到了100M，但是还有其他地域的用户反应视频内容卡顿，此时您应该使用腾讯云CDN的哪项业务场景来解决用户投诉?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 369,
+		"feedback": "视频内容决定了适合使用流媒体点播加速业务场景",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1473,
+			"title": " 静态内容加速",
+			"param": "[]"
+		}, {
+			"oid": 1474,
+			"title": " 流媒体点播加速",
+			"param": "[]"
+		}, {
+			"oid": 1475,
+			"title": " 下载分发加速",
+			"param": "[]"
+		}, {
+			"oid": 1476,
+			"title": " 动态加速网络",
+			"param": "[]"
+		}],
+		"rightoids": [1474]
+	}, {
+		"title": "在一个日PV高达亿次的网站中，要达到高性能的表现，必须通过合理的架构设计来实现，以下关于高性能架构设计时要考虑的要素描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 370,
+		"feedback": "腾讯云机房的网络能力远超单租户的预期，作为云租户，只需考虑自身的架构设计是否合理，无需考虑机房的网络性能",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1477,
+			"title": " 要考虑应用本身的性能，例如代码执行等",
+			"param": "[]"
+		}, {
+			"oid": 1478,
+			"title": " 要考虑存储的性能，例如结构化和非结构化的存储",
+			"param": "[]"
+		}, {
+			"oid": 1479,
+			"title": " 要充分考虑网络性能，例如外网的带宽",
+			"param": "[]"
+		}, {
+			"oid": 1480,
+			"title": " 要充分考虑内网带宽的问题，例如腾讯云机房是否能承受亿次PV带来的流量",
+			"param": "[]"
+		}],
+		"rightoids": [1480]
+	}, {
+		"title": "以下关于腾讯云微服务平台中服务管理所拥有的核心功能列表中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 371,
+		"feedback": "灰度升级属于应用管理功能",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1481,
+			"title": " 服务注册发现",
+			"param": "[]"
+		}, {
+			"oid": 1482,
+			"title": " 服务限流",
+			"param": "[]"
+		}, {
+			"oid": 1483,
+			"title": " 服务灰度升级",
+			"param": "[]"
+		}, {
+			"oid": 1484,
+			"title": " 服务鉴权",
+			"param": "[]"
+		}],
+		"rightoids": [1483]
+	}, {
+		"title": "对于突发流量，小明把用户的请求数据先堆积在CMQ server,消费者按照实际能力来消费，防止雪崩效应和消息丢失，小明的这种设计利用到了以下哪项消息队列的功能和优势?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 372,
+		"feedback": "高峰期堆积消息，根据使用者的实际能力来消费，符合削峰填谷的特征",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1485,
+			"title": " 系统解耦",
+			"param": "[]"
+		}, {
+			"oid": 1486,
+			"title": " 削峰填谷",
+			"param": "[]"
+		}, {
+			"oid": 1487,
+			"title": " 消费复用",
+			"param": "[]"
+		}, {
+			"oid": 1488,
+			"title": " 消费可靠",
+			"param": "[]"
+		}],
+		"rightoids": [1486]
+	}, {
+		"title": "以下关于腾讯云CKafka描述错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 373,
+		"feedback": "Ckafka具有数据压缩、同时支持离线和实时数据处理等优点，适用于日志压缩收集、监控数据聚合等场景。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1489,
+			"title": " CKafka (Cloud Kafka) 是一个分布式的、高吞吐量、高可扩展性的消息系统，100%兼容开源Kafka APi (0.9版本、0.10版本)",
+			"param": "[]"
+		}, {
+			"oid": 1490,
+			"title": " CKafka基于发布/订阅模式，通过消息解耦，使生产者和消费者无需彼此等待",
+			"param": "[]"
+		}, {
+			"oid": 1491,
+			"title": " CKafka只支持实时数据处理",
+			"param": "[]"
+		}, {
+			"oid": 1492,
+			"title": " CKafka具有数据压缩功能",
+			"param": "[]"
+		}],
+		"rightoids": [1491]
+	}, {
+		"title": "您作为一家数据分析公司的架构师，打算使用腾讯云上的消息队列产品来实时处理网站活动，实时监控以及离线统计分析各种信息流，此时您应该采用腾讯云上的哪款消息队列产品?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 374,
+		"feedback": "Ckafka具有数据压缩、同时支持离线和实时数据处理等优点，适用于日志压缩收集、监控数据聚合等场景。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1493,
+			"title": " Meta MQ",
+			"param": "[]"
+		}, {
+			"oid": 1494,
+			"title": " Ckafka",
+			"param": "[]"
+		}, {
+			"oid": 1495,
+			"title": " I0T MQ",
+			"param": "[]"
+		}, {
+			"oid": 1496,
+			"title": " RocketMQ",
+			"param": "[]"
+		}],
+		"rightoids": [1494]
+	}, {
+		"title": "腾讯云上提供了多款消息队列产品，以下哪项描述不属于腾讯云提供的消息队列产品?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 375,
+		"feedback": "腾讯云上的消息队列产品: CMQ、Ckafka、IOT MQ",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1497,
+			"title": " CMQ",
+			"param": "[]"
+		}, {
+			"oid": 1498,
+			"title": " Ckafka",
+			"param": "[]"
+		}, {
+			"oid": 1499,
+			"title": " IOT MQ",
+			"param": "[]"
+		}, {
+			"oid": 1500,
+			"title": "  RocketMQ",
+			"param": "[]"
+		}],
+		"rightoids": [1500]
+	}, {
+		"title": "以下关于实现解耦架构之后的优势描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 376,
+		"feedback": "代码执行效率是开发人员应该优化的部分，和解耦架构的关系本身不大",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1501,
+			"title": " 模块化，缩小故障范围",
+			"param": "[]"
+		}, {
+			"oid": 1502,
+			"title": " 降低变更成本，插入新模块不影响其他模块",
+			"param": "[]"
+		}, {
+			"oid": 1503,
+			"title": " 开发人员协作更简单",
+			"param": "[]"
+		}, {
+			"oid": 1504,
+			"title": " 提升代码执行效率",
+			"param": "[]"
+		}],
+		"rightoids": [1504]
+	}, {
+		"title": "关于无服务器云函数，下列说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 377,
+		"feedback": "Serverless并不代表没有了服务器，只是用户不再需要关心这些底层资源了",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1505,
+			"title": " 可在未购买云服务器的情况下运行代码",
+			"param": "[]"
+		}, {
+			"oid": 1506,
+			"title": "  代码由事件触发，平台根据请求自动平行调整服务资源",
+			"param": "[]"
+		}, {
+			"oid": 1507,
+			"title": " Serverless代表无需底层服务器的支撑代码也能运行，因此用户不需要关心底层资源",
+			"param": "[]"
+		}, {
+			"oid": 1508,
+			"title": " 无法登录或管理服务器、无法自定义系统和环境",
+			"param": "[]"
+		}],
+		"rightoids": [1507]
+	}, {
+		"title": "您可以在腾讯云.上通过部署事件驱动式的代码功能来实现业务模块，以下哪项产品可以提供事件驱动式的应用支持?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 378,
+		"feedback": "无服务器云函数提供了事件驱动式的应用所需的运行环境",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1509,
+			"title": " 无服务器云函数",
+			"param": "[]"
+		}, {
+			"oid": 1510,
+			"title": " CVM",
+			"param": "[]"
+		}, {
+			"oid": 1511,
+			"title": " 弹性伸缩",
+			"param": "[]"
+		}, {
+			"oid": 1512,
+			"title": " 负载均衡",
+			"param": "[]"
+		}],
+		"rightoids": [1509]
+	}, {
+		"title": "腾讯云上的弹性伸缩产品提供了众多功能，以下哪项描述不属于弹性伸缩的功能配置项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 379,
+		"feedback": "弹性伸缩中，只有移出策略，并没有迁入策略",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1513,
+			"title": " 最小伸缩数",
+			"param": "[]"
+		}, {
+			"oid": 1514,
+			"title": " 起始实例数",
+			"param": "[]"
+		}, {
+			"oid": 1515,
+			"title": " 移出策略",
+			"param": "[]"
+		}, {
+			"oid": 1516,
+			"title": " 迁入策略",
+			"param": "[]"
+		}],
+		"rightoids": [1516]
+	}, {
+		"title": "在腾讯云上的CVM,您可以实现水平扩展，也可以实现垂直扩展，以下关于水平扩展的描述，正确的有哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 380,
+		"feedback": "水平扩展又称为横向扩展，主要是通过增加数量来弥补业务短板",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1517,
+			"title": "  通过增加实例数量来缓解业务压力的方式成为水平扩展",
+			"param": "[]"
+		}, {
+			"oid": 1518,
+			"title": " 通过增加实例规格(存储、CPU、内，存、带宽等)缓解业务压力的方式成为水平扩展",
+			"param": "[]"
+		}, {
+			"oid": 1519,
+			"title": " 通过更改负载均衡实例类型来缓解业务压力的方式成为水平扩展",
+			"param": "[]"
+		}, {
+			"oid": 1520,
+			"title": " 为同一台CVM配置多个公网IP来缓解业务压力的方式成为水平扩展",
+			"param": "[]"
+		}],
+		"rightoids": [1517]
+	}, {
+		"title": "关于VPN连接的使用约束，下列说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 381,
+		"feedback": "在配置完路由表之后，需要在VPC内云主机ping对端网段中的IP以激活此VPN通道。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1521,
+			"title": " VPN参数配置完成后，需要在子网关联的路由表中添加指向VPN网关的路由策略",
+			"param": "[]"
+		}, {
+			"oid": 1522,
+			"title": " VPN连接稳定性依赖运营商公网质量，暂时无法提供SLA服务协议保障，目前的SLA主要保证服务可用性",
+			"param": "[]"
+		}, {
+			"oid": 1523,
+			"title": " 主要用于腾讯云私有网络和外部IDC之间建立安全可靠的加密网络通信",
+			"param": "[]"
+		}, {
+			"oid": 1524,
+			"title": " 在配置完路由表之后，即可激活此VPN通道",
+			"param": "[]"
+		}],
+		"rightoids": [1524]
+	}, {
+		"title": "一个完整的专线接入是由多个部分组成的，以下哪项描述不属于专线接入的组成部分?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 382,
+		"feedback": "共享密钥是VPN连接中要用到的",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1525,
+			"title": "  物理专线",
+			"param": "[]"
+		}, {
+			"oid": 1526,
+			"title": " 共享密钥",
+			"param": "[]"
+		}, {
+			"oid": 1527,
+			"title": "  专线通道",
+			"param": "[]"
+		}, {
+			"oid": 1528,
+			"title": " 专线网关",
+			"param": "[]"
+		}],
+		"rightoids": [1526]
+	}, {
+		"title": "腾讯云上的负载均衡产品提供四层和七层的服务，以下关于四层和七层的特点描述错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 383,
+		"feedback": "七层的负载均衡转发规则是基于URL的，而四层是基于IP和端口号的",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1529,
+			"title": " 四层基于TCP/UDP协议",
+			"param": "[]"
+		}, {
+			"oid": 1530,
+			"title": " 七层基于HTTP/HTTPS协议",
+			"param": "[]"
+		}, {
+			"oid": 1531,
+			"title": " 七层的负载均衡转发规则是基于URL的",
+			"param": "[]"
+		}, {
+			"oid": 1532,
+			"title": " 四层的转发规则是基于URL的",
+			"param": "[]"
+		}],
+		"rightoids": [1532]
+	}, {
+		"title": "腾讯云上提供了多种负载均衡流量分发的调度算法，以下属于负载均衡调度算法的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 384,
+		"feedback": "负载均衡流量分发支持的调度算法:加权轮询算法、加权最小连接数、源地址散列调度算法。详细链接：[url=https://cloud.tencent.com/document/product/214/5371]https://cloud.tencent.com/document/product/214/5371[/url]",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1533,
+			"title": "  加权轮询算法",
+			"param": "[]"
+		}, {
+			"oid": 1534,
+			"title": " 加权最小连接数算法",
+			"param": "[]"
+		}, {
+			"oid": 1535,
+			"title": "  源地址散列调度算法",
+			"param": "[]"
+		}, {
+			"oid": 1536,
+			"title": " 加权源地址散列调度算法",
+			"param": "[]"
+		}],
+		"rightoids": [1533, 1534, 1535]
+	}, {
+		"title": "在架构设计时通常都会充分考虑高可用的设计，以下关于设计高可用架构的目的以及实现的描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 385,
+		"feedback": "采用弹性缓存数据库CRS CMEM是实现数据加速,体现高性能的设计",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1537,
+			"title": " 设计高可用可以规避单点故障",
+			"param": "[]"
+		}, {
+			"oid": 1538,
+			"title": " 可以通过负载均衡产品来实现互联网访问入口的高可用性",
+			"param": "[]"
+		}, {
+			"oid": 1539,
+			"title": " 有服务器出现故障时，弹性伸缩组会自动复制出健康的实例，以替换状态异常的实例，所以弹性伸缩也体现了高可用性的设计",
+			"param": "[]"
+		}, {
+			"oid": 1540,
+			"title": " 弹性缓存数据库提供了内存级别的响应速度，也体现了高可用性的设计",
+			"param": "[]"
+		}],
+		"rightoids": [1540]
+	}, {
+		"title": "以下关于腾讯云上各存储产品及其功能描述错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 386,
+		"feedback": "文件存储不能脱离CVM来使用",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1541,
+			"title": " 云硬盘适用于绑定CVM使用的场景，不推荐用于数据共享的场景",
+			"param": "[]"
+		}, {
+			"oid": 1542,
+			"title": "  对象存储适用于数据共享且需要高性能高容量的场景下",
+			"param": "[]"
+		}, {
+			"oid": 1543,
+			"title": " 文件存储适用于的文件共享的场景下且无需CVM即可使用",
+			"param": "[]"
+		}, {
+			"oid": 1544,
+			"title": " 日志存储主要是用来存储各项日志信息，用于后期分析的场景",
+			"param": "[]"
+		}],
+		"rightoids": [1543]
+	}, {
+		"title": "数据的可访问性是指数据在访问过程中并不会因为服务器故障而导致中断，实现可访问性一般是通过群集的方式，使用多节点承载应用或数据,数据必须保持一致性，以下哪项描述不属于保持数据一致性的方式?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 387,
+		"feedback": "保持数据一致性的方式:强一致性、弱一致性、最终一致性",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1545,
+			"title": " 强一致性",
+			"param": "[]"
+		}, {
+			"oid": 1546,
+			"title": " 弱一致性",
+			"param": "[]"
+		}, {
+			"oid": 1547,
+			"title": " 最终一致性",
+			"param": "[]"
+		}, {
+			"oid": 1548,
+			"title": " 定期一致性",
+			"param": "[]"
+		}],
+		"rightoids": [1548]
+	}, {
+		"title": "下列关于腾讯云上两地三中心容灾部署方案，描述错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 388,
+		"feedback": "腾讯云不同地域不需要购买专线",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1549,
+			"title": "  当用户已经具有大规模应用后，其核心问题不再是基础设施部署速度无法满足业务增长，而是在满足稳定性、可靠性的同时，寻求从单中心向多中心化发展，通过消灭单点，解决单数据中心故障带来的业务风险",
+			"param": "[]"
+		}, {
+			"oid": 1550,
+			"title": " 多地域部署，两个地域数据中心完全隔离，最大程度地实现应用的连续性、数据的异地容灾",
+			"param": "[]"
+		}, {
+			"oid": 1551,
+			"title": " 同一地域多可用区部署，实现同城灾备，应用系统的高可用，数据容灾",
+			"param": "[]"
+		}, {
+			"oid": 1552,
+			"title": " 腾讯云上的两地三中心方案跟传统的两地三中心方案一样，也需要自己购买专线服务，以实现数据同步",
+			"param": "[]"
+		}],
+		"rightoids": [1552]
+	}, {
+		"title": "以下哪项腾讯云上的网络产品可以避免单个云服务器故障并删除，新购云服务器部署业务后，IP发生变更，更新DNS带来的几十小时用户体验中断或不佳的问题?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 389,
+		"feedback": "弹性公网IP支持与CVMNAT网关实例的动态绑定和解绑。在任何云主机出现故障时，只需启动另一个实例并重新映射它，从而快速响应实例故障",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1553,
+			"title": " 公网网关",
+			"param": "[]"
+		}, {
+			"oid": 1554,
+			"title": " 无服务器云函数",
+			"param": "[]"
+		}, {
+			"oid": 1555,
+			"title": " 弹性公网IP",
+			"param": "[]"
+		}, {
+			"oid": 1556,
+			"title": " 容器服务 ",
+			"param": "[]"
+		}],
+		"rightoids": [1555]
+	}, {
+		"title": "腾讯云划分子网的原则中，关于子网掩码说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 390,
+		"feedback": "最小为/16掩码，最大为/28掩码",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1557,
+			"title": " 将IP地址划分为网络和主机两部分",
+			"param": "[]"
+		}, {
+			"oid": 1558,
+			"title": " 允许最短掩码为/8",
+			"param": "[]"
+		}, {
+			"oid": 1559,
+			"title": " 允许最长掩码为/28",
+			"param": "[]"
+		}, {
+			"oid": 1560,
+			"title": " 腾讯云保留每个子网中前两个和最后一个IP地址",
+			"param": "[]"
+		}],
+		"rightoids": [1558]
+	}, {
+		"title": "以下关于腾讯云上各类型的云服务器应用场景描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 391,
+		"feedback": "GPU型号主要是用于深度学习，科学计算,图形处理方面",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1561,
+			"title": " 标准型;中小型Web应用、中小型数据库",
+			"param": "[]"
+		}, {
+			"oid": 1562,
+			"title": " 高I/O型:高性能数据库，NoSQL数据库，群集化数据库",
+			"param": "[]"
+		}, {
+			"oid": 1563,
+			"title": " 计算型:对CPU要求较高的场景，例如HPC高性能计算场景下",
+			"param": "[]"
+		}, {
+			"oid": 1564,
+			"title": " GPU型:适用于对磁盘性能要求较高的场景下，例如高性能数据库的部署",
+			"param": "[]"
+		}],
+		"rightoids": [1564]
+	}, {
+		"title": "以下关于腾讯云上在不同地域、不同可用区、不同私有网络、不同云账户的情况下连通性的描述中，描述错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 392,
+		"feedback": "不同云账户之间可以使用公网、对等连接等方式进行通信",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1565,
+			"title": " 不同地域之间可以使用对等连接方式通信",
+			"param": "[]"
+		}, {
+			"oid": 1566,
+			"title": " 同地域下的不同可用区默认提供内网互通",
+			"param": "[]"
+		}, {
+			"oid": 1567,
+			"title": " 不同私有网络之间可以通过对等连接方式通信",
+			"param": "[]"
+		}, {
+			"oid": 1568,
+			"title": " 不同云账户无法通过任何方式进行通信",
+			"param": "[]"
+		}],
+		"rightoids": [1568]
+	}, {
+		"title": "以下腾讯云上地域的描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 393,
+		"feedback": "腾讯云不同地域之间完全隔离，保证不同地域间最大程度的稳定性和容错性",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1569,
+			"title": " 每个地域都是一个独立的地理区域",
+			"param": "[]"
+		}, {
+			"oid": 1570,
+			"title": " 腾讯云地域覆盖全球，并逐渐增加",
+			"param": "[]"
+		}, {
+			"oid": 1571,
+			"title": " 不同地域默认提供内网通信",
+			"param": "[]"
+		}, {
+			"oid": 1572,
+			"title": " 选择最近地域，可降低访问时延",
+			"param": "[]"
+		}],
+		"rightoids": [1571]
+	}, {
+		"title": "如果在设计架构时没有充分考虑安全性，可能会遭受到DDOS攻击或者数据泄露等事件，作为应对措施，以下哪项描述是正确且最优的?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 394,
+		"feedback": "在云上应积极使用各项云安全产品提供一体化的安全服务，保障会更好",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1573,
+			"title": " 积极联系主机安全厂商，将其安全产品部署到云服务器中",
+			"param": "[]"
+		}, {
+			"oid": 1574,
+			"title": " 联系网络运营商，例如中国联通，请其为云上的业务提供抗网络攻击能力",
+			"param": "[]"
+		}, {
+			"oid": 1575,
+			"title": " 继续使用腾讯云的安全产品提供一体化安全服务",
+			"param": "[]"
+		}, {
+			"oid": 1576,
+			"title": " 从业务代码入手，用更严谨的方式部署业务",
+			"param": "[]"
+		}],
+		"rightoids": [1575]
+	}, {
+		"title": "以下关于容器服务TKE的操作顺序的描述中，正确的有哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 395,
+		"feedback": "正确的顺序: 1、创建TKE集群，2、创建服务和应用，3、运行服务和应用",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1577,
+			"title": " 1、创建TKE集群. 2、. 创建服务和应用，3、运行服务和应用",
+			"param": "[]"
+		}, {
+			"oid": 1578,
+			"title": " 1、创建TKE集群，2、配置弹性伸缩产品，3、创建服务和应用，4、运行服务和应用",
+			"param": "[]"
+		}, {
+			"oid": 1579,
+			"title": " 1、创建TKE集群，2、配置Python环境，3、创建服务和应用，4、运行服务和应用",
+			"param": "[]"
+		}, {
+			"oid": 1580,
+			"title": " 1、创建TKE集群，2、配置无服务器云函数，3、创建服务和应用，4、运行服务和应用",
+			"param": "[]"
+		}],
+		"rightoids": [1577]
+	}, {
+		"title": "以下关于业务架构的可扩展性演进趋势的描述中，正确的顺序是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 396,
+		"feedback": "可扩展性架构演进趋势的正确顺序: 1、单体架构，2、垂直架构，3、SOA架构，4、微服务架构",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1581,
+			"title": " 1、单体架构, 2.垂直架构，3、SOA架构，4、微服务架构",
+			"param": "[]"
+		}, {
+			"oid": 1582,
+			"title": " 1、垂直架构，2、单体架构，3、SOA架构，4、微服务架构",
+			"param": "[]"
+		}, {
+			"oid": 1583,
+			"title": " 1、SOA架构， 2、微服务架构，3、单体架构，4、垂直架构",
+			"param": "[]"
+		}, {
+			"oid": 1584,
+			"title": " 1、微服务架构，2、垂直架构，3、SOA架构，4、单体架构",
+			"param": "[]"
+		}],
+		"rightoids": [1581]
+	}, {
+		"title": "可伸缩性是指系统能够通过增加或者减少自身资源规模的方式增强或减少自己计算处理事务的能力，不需要改变系统软硬件设计，仅仅通过改变部署的服务器数量就可以扩大或者缩小网站的服务处理能力，在云上有很多产品都可以实现伸缩性，以下哪项描述是错误的?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 397,
+		"feedback": "业务流量的伸缩不能靠网络ACL和安全组，它们是用来实现流量的安全过滤，承担的是防火墙角色",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1585,
+			"title": " 访问地区可伸缩:多可用区、云解析、CDN",
+			"param": "[]"
+		}, {
+			"oid": 1586,
+			"title": " 网络地址可伸缩: VPC、弹性网卡",
+			"param": "[]"
+		}, {
+			"oid": 1587,
+			"title": " 计算能力可伸缩:负载均衡+弹性计算",
+			"param": "[]"
+		}, {
+			"oid": 1588,
+			"title": " 业务流量可伸缩:网络ACL、安全组",
+			"param": "[]"
+		}],
+		"rightoids": [1588]
+	}, {
+		"title": "使用腾讯云产品和自建机房相比，以下哪项描述不能降低成本?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 398,
+		"feedback": "行政管理的成本与是否上云无关，所以不能通过上云降低成本",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1589,
+			"title": " 基础设施投入",
+			"param": "[]"
+		}, {
+			"oid": 1590,
+			"title": " 运维成本",
+			"param": "[]"
+		}, {
+			"oid": 1591,
+			"title": " 开发成本",
+			"param": "[]"
+		}, {
+			"oid": 1592,
+			"title": " 行政管理成本",
+			"param": "[]"
+		}],
+		"rightoids": [1592]
+	}, {
+		"title": "在腾讯云安全产品中，下列属于数据安全的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 399,
+		"feedback": "",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1593,
+			"title": " 大禹",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1594,
+			"title": " 云镜",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1595,
+			"title": " 访问控制管理CAM",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1596,
+			"title": " 密钥管理KMS、数字证书CA",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1596]
+	}, {
+		"title": "当我们在做架构设计时，应充分考虑主机层面的安全性，如果没有做好服务器安全，可能将会遭受病毒木马攻击、暴力破解密码、漏洞攻击等风险，以下哪项产品可以提供腾讯云主机安全服务?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 400,
+		"feedback": "云镜基于腾讯安全积累的海量威胁数据，利用机器学习为用户提供黑客入侵检测和漏洞风险预警等安全防护服务，主要包括密码破解拦截、异地登录提醒、木马文件查杀、高危漏洞检测等安全功能，解决当前服务器面临的主要网络安全风险，帮助企业构建服务器安全防护体系。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1597,
+			"title": " 大禹",
+			"param": "[]"
+		}, {
+			"oid": 1598,
+			"title": " 天御",
+			"param": "[]"
+		}, {
+			"oid": 1599,
+			"title": " 云镜",
+			"param": "[]"
+		}, {
+			"oid": 1600,
+			"title": " 网站安全管家",
+			"param": "[]"
+		}],
+		"rightoids": [1599]
+	}, {
+		"title": "当我们在做架构设计时，要充分考虑安全性，如果没有做好应用安全，可能将会造成APP的数据泄密与被攻击，以下哪项保护措施不属于APP安全范畴?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 401,
+		"feedback": "网页篡改防护是WAF的功能，不属于APP安全",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1601,
+			"title": " DEX文件加固",
+			"param": "[]"
+		}, {
+			"oid": 1602,
+			"title": " 高级内存保护",
+			"param": "[]"
+		}, {
+			"oid": 1603,
+			"title": " 防二次打包保护",
+			"param": "[]"
+		}, {
+			"oid": 1604,
+			"title": " 网页篡改防护",
+			"param": "[]"
+		}],
+		"rightoids": [1604]
+	}, {
+		"title": "您打算在腾讯云上运营一个电商类网站，经过认真考虑，您决定购买腾讯云的各种安全产品来保障整体安全，以下关于在腾讯云上实现高安全目的的描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 402,
+		"feedback": "业务的性能不属于实现高安全目的的范畴",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1605,
+			"title": " 业务的连续性可以得到保障",
+			"param": "[]"
+		}, {
+			"oid": 1606,
+			"title": " 数据的完整性更好",
+			"param": "[]"
+		}, {
+			"oid": 1607,
+			"title": " 数据的泄露风险更小",
+			"param": "[]"
+		}, {
+			"oid": 1608,
+			"title": " 业务的性能更好",
+			"param": "[]"
+		}],
+		"rightoids": [1608]
+	}, {
+		"title": "您近期正在为本地的电商系统上云而规划腾讯云上的架构，希望能借助腾讯云来实现微服务化的部署，提升整体性能，通过减少耦合性来降低整体失败的风险，实现功能模块的在线热更新，并且还要保证功能模块之间的通信可靠，关于此需求，以下微服务的设计方案中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 403,
+		"feedback": "在本地内存中建立的数据缓存、Session缓存将会限制节点和容器组的扩展性，因为是在本地内存中，所以应用的动态增删节点将不可能",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1609,
+			"title": " 把功能模块改造成无状态的计算类服务单独部署并使用Resetful API互相通信，例如:订单容器组、商品展示容器组、评价容器组、物流展示容器组等",
+			"param": "[]"
+		}, {
+			"oid": 1610,
+			"title": " 会话类的有状态数据用云产品而不是自建来实现，例如session 会话使用高速的云缓存数据库存取",
+			"param": "[]"
+		}, {
+			"oid": 1611,
+			"title": " 系统中持久化的文件由腾讯云上的分布式数据存储产品提供而不是放在CVM上，例如对象存储、文件存储等",
+			"param": "[]"
+		}, {
+			"oid": 1612,
+			"title": " 在每个容器的本地内存中建立的数据缓、存、Session缓存， 可提升整体性能和扩展性",
+			"param": "[]"
+		}],
+		"rightoids": [1612]
+	}, {
+		"title": "以下关于在高可用设计时应遵守的评估分级原则描述中，错误的有哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 404,
+		"feedback": "计划内的停机维护不应该算在故障停机之内",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1613,
+			"title": " 评估分级原则主要是考虑成本和需求匹配的问题",
+			"param": "[]"
+		}, {
+			"oid": 1614,
+			"title": " 评估分级原则中，系统设计时应明确可用性需求，计划内宕机与非计划内宕机都应包含在故障停机时间之内",
+			"param": "[]"
+		}, {
+			"oid": 1615,
+			"title": " 评估分级原则中，系统设计时应明确可用性需求，计划内宕机不应包含在故障停机时间之内",
+			"param": "[]"
+		}, {
+			"oid": 1616,
+			"title": " 评估分级原则中，高可用性的提高，将伴随着成本增加",
+			"param": "[]"
+		}],
+		"rightoids": [1614]
+	}, {
+		"title": "以下关于腾讯云上各种云数据库产品功能的描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 405,
+		"feedback": "Memcached提供单一的字符串数据类型",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1617,
+			"title": " CBD For MySQL提供的是一个高性能、可弹性扩展的数据库服务",
+			"param": "[]"
+		}, {
+			"oid": 1618,
+			"title": " 云数据库Redis提供多种数据类型的弹性缓存功能",
+			"param": "[]"
+		}, {
+			"oid": 1619,
+			"title": " 云数据库Memcached提供多种数据类型的弹性缓存功能",
+			"param": "[]"
+		}, {
+			"oid": 1620,
+			"title": " 云数据库SQL Service提供微软正版授权许可",
+			"param": "[]"
+		}],
+		"rightoids": [1619]
+	}, {
+		"title": "以下关于腾讯云上不同存储产品的功能定位的描述中，错误的有哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 406,
+		"feedback": "归档存储提供的是离线存储，无法提供高响应能力",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1621,
+			"title": " 对象存储主要适用于海量高性能的存储场景",
+			"param": "[]"
+		}, {
+			"oid": 1622,
+			"title": " 文件存储主要适用于多台服务器一起挂载存储空间来实现文件共享的场景",
+			"param": "[]"
+		}, {
+			"oid": 1623,
+			"title": " 云硬盘提供的是弹性可扩展的块存储服务",
+			"param": "[]"
+		}, {
+			"oid": 1624,
+			"title": " 归档存储提供对实时性响应能力要求比较高的存储空间",
+			"param": "[]"
+		}],
+		"rightoids": [1624]
+	}, {
+		"title": "负载均衡(Cloud Load Balancer)是腾讯云提供的一种网络负载均衡业务。关于负载均衡业务，下列说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 407,
+		"feedback": "负载均衡服务通过设置虚拟服务地址(VIP)，将位于同一地域的多台云服务器资源虚拟成一个高性能、高可用的应用服务池;根据应用指定的方式，将来自客户端的网络请求分发到云服务器池中。跨地域分发灰度中，需要提工单申请开通",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1625,
+			"title": " 可以结合CVM虚拟机为用户提供基于TCP/UDP以及HTTP负载均衡服务",
+			"param": "[]"
+		}, {
+			"oid": 1626,
+			"title": " 负载均衡器能够在未做任何特殊处理的默认情况下，接受来自客户端传入流量，并将请求路由到不同地域下的一个或多个可用区中的后端云服务器实例上进行处理",
+			"param": "[]"
+		}, {
+			"oid": 1627,
+			"title": " 负载均衡服务会检查云服务器池中云服务器实例的健康状态，自动隔离异常状态的实例，从而解决了云服务器的单点问题，同时提高了应用的整体服务能力",
+			"param": "[]"
+		}, {
+			"oid": 1628,
+			"title": " 负载均衡可以应用于横向扩展应用系统的服务能力",
+			"param": "[]"
+		}],
+		"rightoids": [1626]
+	}, {
+		"title": "以下关于腾讯云中云服务器、专用宿主机、黑石服务器等产品的功能特性描述错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 408,
+		"feedback": "专用宿主机也可以提供网络类型的普通业务，将业务部署在CDH.上可以提供更好的隔离性和合规性",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1629,
+			"title": " 云服务器(CVM) 提供了一个弹性、低成本、高可靠的服务器",
+			"param": "[]"
+		}, {
+			"oid": 1630,
+			"title": " 专用宿主机CDH是为特定业务而设计的，普通业务无法部署到专用宿主机",
+			"param": "[]"
+		}, {
+			"oid": 1631,
+			"title": " 黑石服务器CPM提供了一个高性能、高合规的物理机租赁服务",
+			"param": "[]"
+		}, {
+			"oid": 1632,
+			"title": " 黑石服务器CPM可以选择安装或不安装虚拟化，完全由用户决定",
+			"param": "[]"
+		}],
+		"rightoids": [1630]
+	}, {
+		"title": "用户可以在云计算管理平台上快速租用虚拟机，那么用户使用的是云计算模式中的哪一种?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 409,
+		"feedback": "laaS(nfrastructure-as-a- Service):基础设施即服务。消费者通过Internet可以从完善的计算机基础设施获得服务。例如:租用虚拟机。",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1633,
+			"title": " laaS",
+			"param": "[]"
+		}, {
+			"oid": 1634,
+			"title": " PaaS",
+			"param": "[]"
+		}, {
+			"oid": 1635,
+			"title": " SaaS",
+			"param": "[]"
+		}, {
+			"oid": 1636,
+			"title": " DaaS",
+			"param": "[]"
+		}],
+		"rightoids": [1633]
+	}, {
+		"title": "您希望使用单一的云计算模式来实现业务部署，并且在业务高峰期时，可以按量计费的方式临时扩展机器来满足高峰期时业务的需要，以下关于此需求所适合的云计算模式描述中，正确的有哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {},
+		"uid": 505,
+		"qid": 410,
+		"feedback": "符合单一模式，并且符合按量计费的特征的，只有公有云模式",
+		"created": 1599843182,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1637,
+			"title": " 公有云",
+			"param": "[]"
+		}, {
+			"oid": 1638,
+			"title": " 私有云",
+			"param": "[]"
+		}, {
+			"oid": 1639,
+			"title": " 混合云",
+			"param": "[]"
+		}, {
+			"oid": 1640,
+			"title": " 行业云",
+			"param": "[]"
+		}],
+		"rightoids": [1637]
+	}, {
+		"title": "腾讯云负载均衡产品，健康检查提示CVM实例异常时，正确的处理顺序是哪项?\r\na.检查后端服务器内部是否有防火墙之类的防护软件，可能导致负载均衡系统无法与后端服务器通讯。\r\nb.检查后端的云服务器是否有高负载导致云服务器对外响应慢。\r\nc.确保后端服务器已开启了相应的端口。\r\nd.检查负载均衡检查参数设置是否正确。\r\ne.确保您能够直接通过云服务器访问到您的应用服务。\r\nf.确保云服务器子机没有做iptables限制。\r\ng.建议使用静态页面来做健康检查。",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 411,
+		"feedback": "详见https://cloud.tencent.com/document/product/214/3394",
+		"created": 1599902325,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1641,
+			"title": "e-a-b-c-f-d-g",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1642,
+			"title": "e-c-a-d-g-b-f",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1643,
+			"title": "a-c-b-e-d-g-f",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1644,
+			"title": "g-e-a-f-c-b-d",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1642]
+	}, {
+		"title": "腾讯云负载均衡，可以为以下哪些TCP端口执行负载均衡?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 412,
+		"feedback": "TCP端口执行负载均衡:21(FTP）、25 (SMTP). 80(HTTP).443(HTTPS），以及1024.-65535等端口。",
+		"created": 1599903555,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1645,
+			"title": "21端口",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1646,
+			"title": "25端口",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1647,
+			"title": "443端口",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1648,
+			"title": "8000端口",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1645, 1646, 1647, 1648]
+	}, {
+		"title": "创建私有网络时，系统自动为其生成一个默认路由表，下列关于默认路由表说法中，正确的有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 413,
+		"feedback": "用户创建私有网络时，系统会自动为其生成一个默认路由表。在之后的子网创建过程中，如果用户没有选择自定义路由表，子网会自动关联该默认路由表。您可以在默认路由表中添加、删除和修改路由策略，但无法删除该默认路由表。详见https://cloud.tencent.com/document/product/215/39406",
+		"created": 1599965974,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1649,
+			"title": "没有选择自定义路由表将会自动匹配默认路由表",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1650,
+			"title": "在默认路由表中可以添加和删除规则",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1651,
+			"title": "默认路由表中不能删除规则",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1652,
+			"title": "无法删除默认路由表",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1649, 1650, 1652]
+	}, {
+		"title": "以下关于腾讯云上网络产品的功能特性描述中，错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 414,
+		"feedback": "腾讯云弹性网卡是免费供用户使用的。详见https://cloud.tencent.com/document/product/576/18530",
+		"created": 1599966600,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1653,
+			"title": "负载均衡产品提供了高流量、高并发的承载能力",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1654,
+			"title": "对等连接产品为用户提供了一个跨地域、跨租户互联互通的连接方式",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1655,
+			"title": "NAT网关最大可以提供5G的带宽",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1656,
+			"title": "弹性网卡产品提供按量计费和包年包月两种计费模式",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1656]
+	}, {
+		"title": "弹性网卡(Elastic Network Interface)是绑定私有网络内云主机的一种弹性网络接口，可在多个云主机间自由绑定与解绑。您可以在云主机上绑定多个弹性网卡，实现高可用网络方案;您也可以在弹性网卡上绑定多个IP，实现单主机多IP部署。以下哪项对弹性网卡的优势描述有误?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 415,
+		"feedback": "弹性网卡可以自由地在相同私有网络、可用区下的云服务器间自由迁移。详见https://cloud.tencent.com/document/product/576/18525",
+		"created": 1599967180,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1657,
+			"title": "弹性网卡支持在云主机之间迁移，单台云服务器可配置多个弹性网卡，单个弹性网卡可配置多个内网IP",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1658,
+			"title": "不支持网卡迁移，支持一个弹性网卡配置多个公网与内网IP",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1659,
+			"title": "支持为网络创建多套安全策略，可实现内网、外网、管理网络三网隔离",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1660,
+			"title": "支持基于多网卡的高可靠集群部署",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1658]
+	}, {
+		"title": "腾讯云上不同的资源是区分地域的,有些资源是全球可用的,有些资源是全地域可用，有些资源只能在单个地域中使用，以下哪项资源是只能在单个地域中可用的?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 416,
+		"feedback": "",
+		"created": 1599970887,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1661,
+			"title": "用户账号",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1662,
+			"title": "SSH密钥",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1663,
+			"title": "自定义镜像",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1664,
+			"title": "APPID",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1663]
+	}, {
+		"title": "在腾讯云划分子网时，划分限制根据不同资源各不相同.腾讯云限制每个私有网络内子网的数量是多少?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 418,
+		"feedback": "[color=#666666][size=2][font=\"pingfang SC\", \"helvetica neue\", arial, \"hiragino sans gb\", \"microsoft yahei ui\", \"microsoft yahei\", simsun, sans-serif]每个私有网络内的子网数最多为10个。详见[/font][/size][/color][color=#666666][font=pingfang SC, helvetica neue, arial, hiragino sans gb, microsoft yahei ui, microsoft yahei, simsun, sans-serif][size=2]https://cloud.tencent.com/document/product/215/36514[/size][/font][/color]",
+		"created": 1599981715,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1669,
+			"title": "10个",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1670,
+			"title": "5个",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1671,
+			"title": "15个",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1672,
+			"title": "1个",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1669]
+	}, {
+		"title": "以下关于腾讯云CDN计费中的按请求数计费说法中，正确的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 419,
+		"feedback": "内容分发网络CDN计费模式分为带宽计费和流量计费，默认选择流量计费。详见https://cloud.tencent.com/document/product/228/2949",
+		"created": 1599982495,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1673,
+			"title": "按请求数计费的标准的最小单位是10万次",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1674,
+			"title": "按请求数计费的标准的最小单位是100万次",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1675,
+			"title": "按请求数计费的标准的最小单位是1000万次",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1676,
+			"title": "CDN不支持按照请求次数计费",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1676]
+	}, {
+		"title": "腾讯云分布式服务框架(tencent service framework)是一个围绕着应用和微服务的Paas平台,具有应用全生命周期管理、数据化运营和立体化监控功能,下列不属于分布式服务框架优势的是()",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 420,
+		"feedback": "",
+		"created": 1599984874,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1677,
+			"title": "平台提供高可用的注册中心集群",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1678,
+			"title": "提供分布式事务解决方案",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1679,
+			"title": "提供消息队列",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1680,
+			"title": "与腾讯云服务深度整合",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1679]
+	}, {
+		"title": "在腾讯云服务中,下列可扩展的云服务不属于垂直扩展方式的是()",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 421,
+		"feedback": "COS支持垂直扩展,HTAP支持水平扩展",
+		"created": 1599985086,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1681,
+			"title": "HTAP",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1682,
+			"title": "CBS",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1683,
+			"title": "CDB",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1684,
+			"title": "COS",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1681]
+	}, {
+		"title": "腾讯云提供多种服务器供客户在不同的应用场景做相应选择,下列场景中选型不正确的是( )",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 422,
+		"feedback": "构建私有云用黑石",
+		"created": 1599985168,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1685,
+			"title": "小型Web/APP应用使用腾讯云CVM",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1686,
+			"title": "深度学习、科学计算使用GPU云服务器",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1687,
+			"title": "大量的重复性、需要并行计算使用FPGA云服务器",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1688,
+			"title": "构建私有云使用专用宿主机CDH",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1688]
+	}, {
+		"title": "可用区(Zone)是指腾讯云在同一地域内电力和网络互相独立的物理数据中心,下列属于可用区特性的是()",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 423,
+		"feedback": "这个题很容易选错为c,有些实例不一定要指定地域下指定可用区的",
+		"created": 1599985256,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1689,
+			"title": "同一个地域的可用区只能通过外网实现互通",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1690,
+			"title": "可用区的作用是故障隔离",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1691,
+			"title": "实例只能在指定地域下指定可用区",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1692,
+			"title": "实例不能迁移至其它可用区",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1690]
+	}, {
+		"title": "下列选项中不属于性能优化的是()",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 424,
+		"feedback": "",
+		"created": 1599985350,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1693,
+			"title": "超大的带宽储备",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1694,
+			"title": "使用CDN加速",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1695,
+			"title": "确保每个用户的会话数据高速返回",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1696,
+			"title": "限制对象存储容量",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1696]
+	}, {
+		"title": "路由表由一系列路由规则组成,用于控制私有网络(VPC)内子网的出流量走向,腾讯云路由表的类型分别有()",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 425,
+		"feedback": "",
+		"created": 1599985585,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1697,
+			"title": "默认路由表",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1698,
+			"title": "自定义路由表",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1699,
+			"title": "静态路由表",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1700,
+			"title": "动态路由表",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1697, 1698]
+	}, {
+		"title": "以下关于如何做好微服务架构设计的描述中,错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 426,
+		"feedback": "",
+		"created": 1599986036,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1701,
+			"title": "在设计的时候,要有足够的判断力来合理的规划服务之间的界限",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1702,
+			"title": "首先要选一款适合自己实际情况的分布式服务基础框架,对于服务的发现、治理、熔断、降级,都要做好相应的技术准备",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1703,
+			"title": "尽量做到更多的环节实现自动化运维和监控",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1704,
+			"title": "尽量把业务模块部署到同一个服务器中,方便配合弹性伸缩产品进行扩展",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1704]
+	}, {
+		"title": "如果您希望使用伸缩配置中指定的规格以最快速的方式扩容一台服务器,您可以采用以下哪项操作?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 427,
+		"feedback": "",
+		"created": 1599986080,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1705,
+			"title": "修改期望实例数",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1706,
+			"title": "修改最小实例数",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1707,
+			"title": "修改最大实例数",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1708,
+			"title": "手工按照指定的规格完成CVM购买",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1705]
+	}, {
+		"title": "在腾讯云中使用CDN加速的优势有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 428,
+		"feedback": "",
+		"created": 1599986181,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1709,
+			"title": "安全可靠:通过访问控制、HTTPS等技术提供全面防护",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1710,
+			"title": "智能调速:通过对全网链路进行实时监控,结合GSLB调度体系和智能路由技术，优化用户访问体验",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1711,
+			"title": "全球加速:通过全球节点提供就近业务接入",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1712,
+			"title": "简单易用:通过统计监控等方式示回条正砷使用情况",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1709, 1710, 1711, 1712]
+	}, {
+		"title": "在创建CDN加速的时候,有多种业务类型提供给用户选择,下面场景中适合选择静态加速的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 429,
+		"feedback": "",
+		"created": 1599986350,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1713,
+			"title": "视频点播",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1714,
+			"title": "电商网站的页面数据",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1715,
+			"title": "网络直播",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1716,
+			"title": "游戏比分排行榜",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1714]
+	}, {
+		"title": "下面哪个不是CKafka应用场景的是?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 430,
+		"feedback": "",
+		"created": 1599987554,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1717,
+			"title": "网页追踪:实时处理网站活动,实时监控和离线统计分析信息流。",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1718,
+			"title": "日志聚合:非常适用于日志聚合场景,多台服务器可以将操作日志批量、异步发送到集群中。",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1719,
+			"title": "大数据场景:能够很好地支持离线数据、流式数据的处理,并能够方便地进行数据聚合、分析等操作。",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1720,
+			"title": "低功耗、网络吞吐有限、网络质量差的IOT场景下。",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1720]
+	}, {
+		"title": "某游戏公司在选择了腾讯云上服务,为了让玩家有更好游戏体验,采用CDN加速,但总是有玩家反映,进入游戏后,到一个新的场景会出现地图更新慢,会出现卡顿,用户应该采用腾讯云上的哪项服务来解决此场景?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 431,
+		"feedback": "",
+		"created": 1599988089,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1721,
+			"title": "动态加速",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1722,
+			"title": "下载加速",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1723,
+			"title": "全球加速网络",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1724,
+			"title": "流媒体加速",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1722]
+	}, {
+		"title": "腾讯哪些产品提供了高可用?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 432,
+		"feedback": "",
+		"created": 1599990478,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1725,
+			"title": "CLB",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1726,
+			"title": "CMQ",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1727,
+			"title": "CDB",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1728,
+			"title": "COS",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1725, 1726, 1727, 1728]
+	}, {
+		"title": "分布式服务框架的优势",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 433,
+		"feedback": "",
+		"created": 1599990549,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1729,
+			"title": "与腾讯云服务整合",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1730,
+			"title": "分布式事务",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1731,
+			"title": "有消息队列",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1732,
+			"title": "高可用的注册中心集群",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1729, 1730, 1732]
+	}, {
+		"title": "关于腾讯云弹性伸缩AS扩展方式,下列说法正确的有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 434,
+		"feedback": "",
+		"created": 1599990657,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1733,
+			"title": "可通过修改伸缩组的期望实例数,实现手动扩容",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1734,
+			"title": "可设置基于云监控指标(如CPU、内存、网络流量)的弹性伸缩策略来实现自动扩容",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1735,
+			"title": "可设置基于定时任务的弹性伸缩策略到达某个固定的时间点,实现自动扩容",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1736,
+			"title": "可通过添加已有CVM实例到申缩组.实现手动扩容",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1733, 1734, 1735, 1736]
+	}, {
+		"title": "架构设计的指标包括下面哪些选项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 435,
+		"feedback": "",
+		"created": 1599990765,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1737,
+			"title": "可用性",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1738,
+			"title": "可扩展性",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1739,
+			"title": "高安全性",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1740,
+			"title": "成本控制",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1737, 1738, 1739, 1740]
+	}, {
+		"title": "以下哪些选项属于腾讯微服务平台TSF支持的微服务框架?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 436,
+		"feedback": "",
+		"created": 1599991819,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1741,
+			"title": "Spring Cloud",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1742,
+			"title": "Spring Boot",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1743,
+			"title": "SOA",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1744,
+			"title": "Service Mesh",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1741, 1744]
+	}, {
+		"title": "解耦成为目前架构的趋势,下列腾讯云服务中可用来支持解耦服务的有哪些?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 437,
+		"feedback": "",
+		"created": 1599991998,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1745,
+			"title": "腾讯微服务平台TSF",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1746,
+			"title": "消息队列",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1747,
+			"title": "无服务器云函数",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1748,
+			"title": "容器服务TKE",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1745, 1746, 1747, 1748]
+	}, {
+		"title": "下列关于腾讯云的云缓存Memcached技术,说法错误的有哪些项?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 438,
+		"feedback": "云数据库Memcached支持数据结构单一,不适用于业务数据类型复杂的场景;云数据库Memcache实例中的数据是存储在内存中的，当出现宕机、机房断电等意外，或是云数据库Memcache实例在正常升级维护时，内存中的数据均会丢失。因此，云数据库Memcache不能作为持久化的数据存储服务使用。因此选CD",
+		"created": 1599992192,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1749,
+			"title": "腾讯云自主研发的内存级、分布式key—Value存储服务",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1750,
+			"title": "不支持数据的持久化",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1751,
+			"title": "适用于业务数据类型复杂的场景",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1752,
+			"title": "适用于调整缓存的场景",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1751, 1752]
+	}, {
+		"title": "腾讯云安全提供了19项安全服务以构建企业安全体系,下列那些选项属于腾讯云安全提供的业务安全服务？",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 439,
+		"feedback": "",
+		"created": 1599992287,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1753,
+			"title": "活动防刷",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1754,
+			"title": "人脸识别",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1755,
+			"title": "系统漏洞自动修复",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1756,
+			"title": "权限检测",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1753, 1754]
+	}, {
+		"title": "下列哪些场景可以用来描述无服务器架构?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 440,
+		"feedback": "",
+		"created": 1599992466,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1757,
+			"title": "图片较多较大的情况,内存或者缓存不足",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1758,
+			"title": "需要将第三方数据进行抓取,并同步到自身系统",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1759,
+			"title": "使用多个函数有机关联来进行业务处理",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1760,
+			"title": "可以构建可弹性扩展的移动或者WEB应用程序",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1758, 1759, 1760]
+	}, {
+		"title": "腾讯云中VPC可以通过划分子网进行管理,下列选项中属于腾讯云私有网络使用的IP地址有()",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 441,
+		"feedback": "",
+		"created": 1599992539,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1761,
+			"title": "公网IP地址",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1762,
+			"title": "内网IP地",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1763,
+			"title": "弹性IP(EIP)",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1764,
+			"title": "组网IP",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1762, 1763, 1761]
+	}, {
+		"title": "某厂家上了弹性伸缩,准备了5台cvm备用服务器做压力测试,规则增加3台CVM,时间是五分钟,每台服务器CPU占用率超过50%,连续3次,即可触发弹性伸缩,测试时每台CPU占用率均为100%,请问从测试开始到出现CVM实例需要多长时间",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 442,
+		"feedback": "条件格式为:某个指标＋阈值＋周期＋连续达到阈值的周期数。即指标在连续N个周期都达到了阈值。执行动作为:发送通知＋增加/减少指定数量的云服务器。",
+		"created": 1599992740,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1765,
+			"title": "3分钟",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1766,
+			"title": "5分钟",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1767,
+			"title": "15分钟",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1768,
+			"title": "20分钟",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1767]
+	}, {
+		"title": "您在腾讯云上的北京地域部署了一个视频直播平台,经常向全球进行视频直播,在跨地域传输的情况下还要求视频和语音清晰,低延迟,此时您应该使用以下哪款腾讯云的产品来解决此问题?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 443,
+		"feedback": "",
+		"created": 1599993054,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1769,
+			"title": "Anycast",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1770,
+			"title": "对等连接",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1771,
+			"title": "全站加速网络",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1772,
+			"title": "NAT网关",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1771]
+	}, {
+		"title": "在高可用设计时应积极采取冗余设计来避免业务下线,以下哪项描述不属于冗余设计的基本手段?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 444,
+		"feedback": "",
+		"created": 1599993436,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1773,
+			"title": "主从方式",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1774,
+			"title": "双机双工",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1775,
+			"title": "集群方式",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1776,
+			"title": "提升配置方式",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1776]
+	}, {
+		"title": "下列哪些场景可以选用无服务器架构?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 445,
+		"feedback": "",
+		"created": 1599993873,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1777,
+			"title": "实时文件处理:视频应用、社交应用等场景下用户上传的图片、音视频的总量大、频率高,对处理系统的实时性和并发能力都有较高的要求。例如:对于用户上传的视频短片,我们可以使用多个云函数对其分别处理，对应不同的清晰度(1080p,720p等），以满足不同场景下用户的需求,适应移动网络带宽较小且不稳定的特性",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1778,
+			"title": "数据ETL处理:—些数据处理系统中常常需要周期性/计划性地处理庞大的数新量。例如:证券公司每12小时统计—次该时段的交易情况并整理出该时段交易量Top 5,每天处理—遍秒杀网站的交易流日志获取因售罄而导致的错误从而分析商品热度和趋势等",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1779,
+			"title": "移动及Web应用后端:无服务器云函数和其他腾讯云云服务紧密结合,开发者能够构建可弹性扩展的移动或Web应用程序—轻松创建丰富的无服务器后端,而且这些程序可在多个数据中心高可用运行,无需在可扩展性、备份冗余方面执行任何管理工作",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1780,
+			"title": "AI推理预测:在A1模型完成训练后,对外提供推理服务时,可以使用无服务器云函数,将数据模型包装在调用函数中,在实际用户请求到达时再运行代码。不仅能字受无需准备服务器或GPU服务器的费用节省、按实际调用量计费,还可以获得高并发请求下的自动扩容伸缩能力",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1777, 1778, 1779, 1780]
+	}, {
+		"title": "在微信红包中,红包拆开后但获取的金额写入零钱失败.此处采用CMQ的什么技术?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 446,
+		"feedback": "CMQ消息队列保证了红包消息的可靠存储、传递,实时写三份保证数据不丢。资金入账失败时可多次重试,避免失败回滚和频繁轮询数据库等传统方式的弊端。",
+		"created": 1599993993,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1781,
+			"title": "削峰填谷",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1782,
+			"title": "消息复用",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1783,
+			"title": "生产可靠、消费可靠、存储可靠",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1784,
+			"title": "系统解耦",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1783]
+	}, {
+		"title": "高可用设计原则中的伸缩性有两种实现方式,一种通过改变实例规格,一种是增加实例数量,以下那种不能通过改变实例规格实现伸缩性?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 447,
+		"feedback": "云函数支持毫秒级别的实时弹性伸缩,完全根据请求量扩容或缩容。动态负载均衡将请求分发至后端近乎无限的函数实例上,完全无需任何手动配置和操作,满足并发量从О到成千上万的不同场景",
+		"created": 1599994257,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1785,
+			"title": "SCF",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1786,
+			"title": "CDB",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1787,
+			"title": "CVM",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1788,
+			"title": "COS",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1785]
+	}, {
+		"title": "以下哪个场景不适合选择腾讯微服务平台TSF?（）",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 448,
+		"feedback": "腾讯微服务平台TSF适用于以下四种场景：构建分布式服务系统、应用发布和管理、数据化运营、服务治理。",
+		"created": 1599994393,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1789,
+			"title": "构建分布式服务系统:单体应用转变为分布式系统后，实现系统间的可靠调用是关键问题之一，涉及到路由管理，序列化协议等技术细节",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1790,
+			"title": "应用发布和管理:相对于传统的应用发布需要运维人员登录到每一台服务器进行发布和部署，TSF针对分布式系统的应用发布和管理，提供了简单易用的可视化控制台",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1791,
+			"title": "可视化数据运营:通过对日志埋点的收集和分析，可以得到一次请求在各个服务间的调用链关系，有助于梳理应用的请求入口与服务的调用来源、依赖关系。当遇到请求耗时较长的情况，可以通过调用链分析调用瓶颈，快速定位异常",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1792,
+			"title": "能力提供及售卖:利用腾讯云市场，向开发者、合作伙伴、第三方，销售能力，赚取收入",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1792]
+	}, {
+		"title": "高可用的设计原则中,关于冗余设计不需要考虑哪方面?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 449,
+		"feedback": "云平台由腾讯云组建以及维护,已经具有强壮的高可用性,不用担心。",
+		"created": 1599994549,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1793,
+			"title": "网络",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1794,
+			"title": "存储",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1795,
+			"title": "计算",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1796,
+			"title": "云平台",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1796]
+	}, {
+		"title": "有3台机器,每台机器正处理100个请求,现新增—机器,应使用何种策略建立新的负载均衡策略?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 450,
+		"feedback": "",
+		"created": 1599997118,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1797,
+			"title": "加权轮询算法",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1798,
+			"title": "加权最小连接数算法",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1799,
+			"title": "源IP地址散列算法",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1800,
+			"title": "使用腾讯云负载均衡后,最终会自动实现负载均衡",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1798]
+	}, {
+		"title": "下列哪个服务是腾讯云提供的一套WEB服务,用于帮助客户安全的管理腾讯云账户的访问权限，资源管理和使用权限。",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 451,
+		"feedback": "",
+		"created": 1599997220,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1801,
+			"title": "CAM(cloud access management)",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1802,
+			"title": "CUM(cloud user management)",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1803,
+			"title": "CPM(cloud permission management)",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1804,
+			"title": "CSM(cloud safety management)",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1801]
+	}, {
+		"title": "以下关于不合理的架构设计可能会导致的问题，描述最准确的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 452,
+		"feedback": "",
+		"created": 1599997432,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1805,
+			"title": "单点故障:某个组件单节点运行,发生故障后导致整个系统或某个模块不可用。",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1806,
+			"title": "访问如迟:在高峰期或贝司其他问题引起性能不足时,造成用户访问延迟,体验变差。",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1807,
+			"title": "业务中断:容易受到安全攻击或其他人为因素,导致系统不能正常对外提供服务",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1808,
+			"title": "以上都是不合理的架构设计可能会导致的问题",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1808]
+	}, {
+		"title": "小明经营一个提供在线业务的网站,网站中的静态数据已经开启了CDN加速,但是用户反映动态内容打开太慢,导致网页每次都先打开一半(经过CDN加速的静态内容),然后几秒后动态内容才展示,此时小明应该使用以下哪项腾讯云的产品可以加速动态内容的打开速度?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 453,
+		"feedback": "全站加速全球加速ecdn通过在全球各地区部署加速节点,有效降低跨国访问延迟,保障全球加速效果。",
+		"created": 1599997568,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1809,
+			"title": "COS",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1810,
+			"title": "公网加速Anycast",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1811,
+			"title": "对等连接",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1812,
+			"title": "全站加速网络ECDN",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1812]
+	}, {
+		"title": "腾讯云高性能架构设计关注为用户提供多、快、好、省的服务,以下关于高性能架构设计中腾讯云产品的选用,说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 454,
+		"feedback": "CMQ是用来提升扩展性的,与高性能架构没有多少关系",
+		"created": 1599997686,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1813,
+			"title": "使用腾讯云CDN加速用户访问,降低网络延迟",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1814,
+			"title": "使用Redis对热数据进行缓存,加速数据访问速度",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1815,
+			"title": "使用负载均衡CLB颁发云实例访问流呈.提高系统负载能力",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1816,
+			"title": "使用消息队列CMQ进行分布式解耦,来提高应用发布和管理的效率",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1816]
+	}, {
+		"title": "公司运维着一个图片处理服务器,分为前端的图片上传服务器,后端的图片处理服务器,可以提供图片增加滤镜,加水印、裁剪等诸多功能,随着营销加大,服务器的压力越来越大,近期出现了服务器压力持续100%利用率的问题,偶尔还崩溃,现在将架构做了以下更改来解决此问题:将用户上传的图片直接存入对象存储中,图片处理服务器中的诸多功能打包成单独的模块来处理,模块之间不会直接影响到,模块之间通过CMQ来完成通信,在压力高峰期,模块可以单独进行扩展,关于此架构描述中,以下哪项是错误的?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 455,
+		"feedback": "",
+		"created": 1599997811,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1817,
+			"title": "将图片直接存入对象存储中,可以提郅客容调量和性能,如果存入服务器的硬盘上容量需要提前购买,也时常要面临扩容的问题。",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1818,
+			"title": "通过这个整改,完成了系统的解耦合",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1819,
+			"title": "模块之间通过CMQ通信，提升了处理效率",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1820,
+			"title": "以模块的方式部署业务,存在天然的性能瓶颈",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1820]
+	}, {
+		"title": "开发和运营IT系统是一件非常复杂的工作,涉及到各个模块开发者。开发测试和团队之间的协作,紧耦合开始向解耦合转变,下列描述属于解耦合优势的是哪项？",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 456,
+		"feedback": "",
+		"created": 1600003964,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1821,
+			"title": "系统解耦合后,故障影响范围扩大",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1822,
+			"title": "解耦合后拆分为多个模块,变更成本更高",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1823,
+			"title": "由于合是分散的,所以不支持大规模计算",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1824,
+			"title": "系统解耦合后,扩展系统加构变得更加容易",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1824]
+	}, {
+		"title": "用户在请求资源的过程中,可能受到网络、地域、带宽等影响,无法保证请求一定会按照最优访问路径进行传递,腾讯云CDN通过对全网链路进行实时监控,结合自研的GSLB高度体系和智能路由技术,从多个方面优化用户的访问体验,请问期中以下哪项不包括在内?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 457,
+		"feedback": "这里很容易选错为最短路径,最优路径不一定是最短路径,最短路径可能链路拥塞呢",
+		"created": 1600004053,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1825,
+			"title": "最优接入",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1826,
+			"title": "最优加源",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1827,
+			"title": "动态加速",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1828,
+			"title": "最短路径",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1828]
+	}, {
+		"title": "用户已经具有大规模应用,其核心问题不再是担心基础设施部署速度无法满足业务增长,更多的\r\n是从稳定性、可靠性等寻求从单中心向多中心化发展,通过消灭单点,解决单数据中心故障带来\r\n的业务风险。建议用户采用腾讯云上两地三中心容灾部署，下列哪个选项不属于这种部署方式\r\n的特点?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 458,
+		"feedback": "题干要求是消除单点故障，若用户都就近接入，则存在单点故障，且用户就近接入是CDN节点加速内容，与题干内容不符",
+		"created": 1600004154,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1829,
+			"title": "跨可用区部署",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1830,
+			"title": "跨地域部署",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1831,
+			"title": "跨地域高速互联",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1832,
+			"title": "用户分地域就近接入",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1832]
+	}, {
+		"title": "下列选项中不属于腾讯分布式服务框架TSF服务注册中的角色的是()",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 459,
+		"feedback": "",
+		"created": 1600005899,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1833,
+			"title": "服务提供者",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1834,
+			"title": "服务调用者",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1835,
+			"title": "服务注册中心",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1836,
+			"title": "服务监控者",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1836]
+	}, {
+		"title": "在腾讯云中的一台CVM上安装了数据库和服务(服务程序和数据库在同一台机器上),那么服务器程序与数据库就是紧耦合的,下列关于这种结构可能存在的问题和解决办法正确的是(  )",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 460,
+		"feedback": "",
+		"created": 1600006795,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1837,
+			"title": "当业务压力大,服务程序会与数据库程序争夺CPU",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1838,
+			"title": "资源的争夺导致处理能力下降",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1839,
+			"title": "会加大业务压力,最终服务可能崩溃",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1840,
+			"title": "将服务程序和数据库分开部署到两台不同CVM上做隔离,解耦",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1837, 1838, 1839, 1840]
+	}, {
+		"title": "腾讯云的资源不但区分地域,还区分可用区，资源在不同地域的可用区有一定的限制，下列属于单地域单个可用区的是( )",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 461,
+		"feedback": "这个题经常出现,单地域单可用区,CVM,云硬盘,子网",
+		"created": 1600007097,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1841,
+			"title": "SSH密钥",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1842,
+			"title": "CVM实例",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1843,
+			"title": "云硬盘",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1844,
+			"title": "[u]安全组[/u]",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1842, 1843]
+	}, {
+		"title": "下列场景中适合选择文件存储的有( )",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 462,
+		"feedback": "监控数据,有归档需求,更适合选择对象存储",
+		"created": 1600007193,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1845,
+			"title": "网盘数据",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1846,
+			"title": "监控数据",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1847,
+			"title": "企业文件共享",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1848,
+			"title": "内容管理",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1845, 1847, 1848]
+	}, {
+		"title": "某企业在腾讯云上建立网站,该网站包含访回量大的动态网页,导致数据库负载很高。可以采用下列哪个方法来应对这样的场景?()",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 463,
+		"feedback": "",
+		"created": 1600007335,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1849,
+			"title": "通过腾讯Memacached缓存网页静态数据来降低数据库负载,提高用户访问页面的速度",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1850,
+			"title": "通过腾讯云Redis缓存网页静态数据来降低数据库负载,提高用户访问页面的速度",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1851,
+			"title": "启用CDN加速",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1852,
+			"title": "启用DSA加速",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1849, 1850, 1851, 1852]
+	}, {
+		"title": "下列关于腾讯云弹性缓存CRS的适用场景,说法正确的有( )",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 464,
+		"feedback": "AB是CMEM的特点",
+		"created": 1600008108,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1853,
+			"title": "仅支持字符串，字符串非常适合用于保存那些只需要进行读取操作的数据",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1854,
+			"title": "自动扩容",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1855,
+			"title": "兼容Redis协议的缓存和存储服务",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1856,
+			"title": "大量的数据结构",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1855, 1856]
+	}, {
+		"title": "腾讯云可扩展的云服务中,下列选项属于手动扩展的有（  ）",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 465,
+		"feedback": "CVM云服务器在控制台通过调整配置实现，进行费用结算后，云服务器将立即按新的配置运行。\r\nCOS对象存储的存储桶空间无容量上限，无需扩展。\r\n云数据库Redis在控制台变更实例规格。\r\n分布式HTAP数据库目前处于邀测阶段",
+		"created": 1600010004,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1857,
+			"title": "CVM",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1858,
+			"title": "COS",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1859,
+			"title": "RDS",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1860,
+			"title": "HTAP",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1857, 1859, 1860]
+	}, {
+		"title": "关于腾讯云的手动自动扩容,下列说法正确的是( )",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 466,
+		"feedback": "",
+		"created": 1600010171,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1861,
+			"title": "通过修改伸缩组的期望实例数,实现一键扩容",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1862,
+			"title": "基于云监控指标(如CPU、内存、网络流量),手动增加或减少CVM实例",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1863,
+			"title": "到达某个固定时间点,设置CVM实例自动扩容,支持周期性重复",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1864,
+			"title": "通过设置定时或告警来提示用户圭动容",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1861, 1863]
+	}, {
+		"title": "小明昨天误操作将一台刚投入使用的CVM删除了，赶紧重新购买了一台CVM，完成了业务的部署，但是新实例公网IP变了，重新修改DNS映射，最后经过了2天，城名在全球范围内才协复正常，您作为一个成熟的云架构师，可以将以下哪项方案给到他，避免下次再出现此问题?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 467,
+		"feedback": "",
+		"created": 1602909067,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1865,
+			"title": "当出现此问题时，可以寻求工单支持，来找回这台CVM",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1866,
+			"title": "尽量采用弹性公网IP的形式",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1867,
+			"title": "DNS生效慢，直接在CVM上执行ipconfig/flushdns可以提速",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1868,
+			"title": "将所有的CVM转换为包年包月类型，就不会发生被误删除的情况",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1866]
+	}, {
+		"title": "在架构设计领域中，高内聚低耦合一直是架构师推崇的方案，那么请选出以下哪项属于松耦合的设计?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 468,
+		"feedback": "",
+		"created": 1602909779,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1869,
+			"title": "在一台CVM上安装了数据库和服务",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1870,
+			"title": "在容器的内存中存储session",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1871,
+			"title": "将服务程序和数据库分开部署到两台不同CVM上",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1872,
+			"title": "在一台物理机上分别安装了数据牵和服务程序的两套虚拟机",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1871]
+	}, {
+		"title": "小明在腾讯云上的CVM中部署了一个互动网站，其中有项功能:大家可以上传自己的照片，实时生成各种名样捣怪的合成图片，突然有一天，该功能火遍互联网，因需求量过大，导致其他功能无资源可用，变得非常卡顿。您认为小明应该对此网站做出以下哪项整改，实现用最低的成本避免再次出现卡顿的情况?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 469,
+		"feedback": "",
+		"created": 1602910774,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1873,
+			"title": "在下次预热活动之前，提前充足的部署—些CVM",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1874,
+			"title": "在架构中解除功能之问的耦合度，并加入消息系统进行功能对接",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1875,
+			"title": "在架构中增强系统之问的耦合度，并搭配弹性伸缩完成性能的动态提供",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1876,
+			"title": "在架构中加入CDN，可以从前端分流压力",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1875]
+	}, {
+		"title": "在架构中加入CDN之前还有诸多考成因素，例如什么样的业务要使用CDN，以及使用CDN的什么功能，所以知道平台的CDN主要适用于哪些场景是必要的，请选出以下哪些场景适合使用CDN服务?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 470,
+		"feedback": "",
+		"created": 1602938723,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1877,
+			"title": "html类型的网站",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1878,
+			"title": "手机的应用商店",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1879,
+			"title": "苹果手机的iOS系统更新",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1880,
+			"title": "腾讯视频的影片观赏服务",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1877, 1878, 1879, 1880]
+	}, {
+		"title": "您将本地机房中的系统在腾讯云上完成了微服务化设计和改造，但是开发人员开始技照您的设计开发部署时，发现遇到了问题，向您反映说，微服务加重了他们的工作量，容器组过于分散，他们每次调用应用程序接口都变得非常麻烦和繁琐，此时您应该使用以下哪项产品来解决他们的困扰?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 471,
+		"feedback": "",
+		"created": 1602939351,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1881,
+			"title": "API网关",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1882,
+			"title": "CLB",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1883,
+			"title": "TSF",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1884,
+			"title": "TKE",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1883]
+	}, {
+		"title": "互联网的应用经常有动态配置的需求，比如新功能特性开关或者不回版本的应用配置内容会不同，并且通常情况下难以预测前端用户量的多与少，无法准确的配置资源，容易出现过度配置或者配置不足的问题，此时可以使用腾讯微服务平台中应用管理的哪些功能来解决此问题?",
+		"catid": 4,
+		"qtype": 2,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 472,
+		"feedback": "",
+		"created": 1602947745,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1885,
+			"title": "弹性伸缩",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1886,
+			"title": "API网关",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1887,
+			"title": "TSF的配置管理中心功能",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1888,
+			"title": "无服务器云函数",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1887, 1885]
+	}, {
+		"title": "关于弹性公网IP下列说法错误的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 473,
+		"feedback": "",
+		"created": 1602948184,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1889,
+			"title": "弹性公网IP在解绑状态下不收费",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1890,
+			"title": "弹性IP地址与腾讯云账户相关联，而不是与某个CVM实例相关联",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1891,
+			"title": "弹性IP地址是可以独立申请的公网IP地址",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1892,
+			"title": "可用来容灾，当某服务器故障后，可以将弹性IP绑定到其它健康的云服务器上",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1890]
+	}, {
+		"title": "小明为了提升架构的可用性，在广州一区买了200台CVM用于业务，并在前端购买了CLB提供流量访问入口，但是小明的架构却遭到专家的批评，专家指出小明的架构存在单点故供的风险,小明觉得很委屈，您判断前辈的“单点故障”具体指的是什么?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 474,
+		"feedback": "",
+		"created": 1602949384,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1893,
+			"title": "不应该只有小明一个人来完成",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1894,
+			"title": "不应该只在广州一区购买",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1895,
+			"title": "不应该只买—个CLB",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1896,
+			"title": "不应该只购买CVM单一的产品来实现",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1894]
+	}, {
+		"title": "在评估分级的过程中，国际上灾难恢复能力与业务恢复能力的指标能给我们一定的参考，恢复点目标:‘业务系统所允许的灾难过程中最大数据丢失量”主要是用于衡量以下哪项能力的?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 475,
+		"feedback": "",
+		"created": 1602950226,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1897,
+			"title": "衡量容灾系统的数据冗余备份能力",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1898,
+			"title": "衡量数据库迁移过程中的时效性问题",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1899,
+			"title": "衡量数据存储服务的性能优良与否的问题",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1900,
+			"title": "衡量容灾系统的业务恢复能力",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1897]
+	}, {
+		"title": "目前您正在考虑在腾讯云上设计一个大型的微服务平台，缺少一个稳健的服务注册中心，此时您可以使用以下哪项产品来完成服务注册中心的功能?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 476,
+		"feedback": "",
+		"created": 1602950531,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1901,
+			"title": "SCF",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1902,
+			"title": "CLB",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1903,
+			"title": "CDN",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1904,
+			"title": "TSF",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1904]
+	}, {
+		"title": "关于多地域多可用区部署的描述中，下列说法正确的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 477,
+		"feedback": "",
+		"created": 1602950681,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1905,
+			"title": "多可用区可以实现数据容灾",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1906,
+			"title": "多地域可以实现同城容灾",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1907,
+			"title": "多可用区可以实现异地灾备",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1908,
+			"title": "尽量将云服务器部署在同一地域和可用区，方便管理",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1905]
+	}, {
+		"title": "以下关于不合理的架构可能会出现的问题以及优化的描述中，最合理的是哪项?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 478,
+		"feedback": "",
+		"created": 1602951451,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1909,
+			"title": "不合理的架构可能会导致访问延迟等性能不佳的问题，可以通过在架构中引入CDN、ECDN(原动态加速网络DSA）等技术来提升用户体验",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1910,
+			"title": "不合理的架构可能会导致成本过高的问题，可以通过降低服务器配置来解决此问题",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1911,
+			"title": "不合理的架构可能会导致业务中断的问题，可以通过大量预留资源的方式来解决此问题",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1912,
+			"title": "不合理的架构可能会导致运维困难的问题，可以引入DevOps解决此问题",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1909]
+	}, {
+		"title": "以下哪个场景不适合选择腾讯微服务平台TSF?",
+		"catid": 4,
+		"qtype": 1,
+		"score": 1,
+		"medias": [],
+		"param": {
+			"files": [],
+			"option_have_score": 0
+		},
+		"uid": 505,
+		"qid": 479,
+		"feedback": "",
+		"created": 1602951824,
+		"randomOptions": false,
+		"options": [{
+			"oid": 1913,
+			"title": "构建分布式服务系统:单体应用转变为分布式系统后，实现系统间的可靠调用是关键问题之一，涉及到路由管理，序列化协议等技术细节",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1914,
+			"title": "应用发布和管理∶相对于传统的应用发布需要运维人员登录到每一台服务器进行发布和部罢，TSF针对分布式系统的应用发布和管理，提供了简单易用的可视化控制台",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1915,
+			"title": "可视化数据运营:通过对日志埋点的收集和分析，可以得到一次请求在各个服务问的调用锚关系，有助于梳理应用的请求入口与服务的调用来源、依赖关系。当遇到请求耗时较长的情况，可以通过调用链分析调用瓶颈，快速定位异常",
+			"param": "{\"score\":1}"
+		}, {
+			"oid": 1916,
+			"title": "API托管服务∶提供微服务对外暴露的API的完整生命周期管理，包括创建、维护、发布、运行、下线等",
+			"param": "{\"score\":1}"
+		}],
+		"rightoids": [1916]
+	}]
+}
